@@ -1,0 +1,63 @@
+Date: October 5, 2023
+Author: Travis LaFleur
+Reading Time: 5 min 48 sec
+Summary
+Service Blueprints: A Solution to Cross-Departmental Challenges and Cultural Inertia
+From Letters to Digital: The Evolution of Service Design
+Designing with Purpose: The Role of Intent in Crafting Exceptional Services
+Downe’s Principles and Morville's Honeycomb: A Guide for Good Service Design
+Sustained Success: How to Integrate Service Design Principles into your work
+Expanding our design toolkit by exploring the overlap of Service Design and Information Architecture.
+A considerable part of our work as Information Architects is making sure we understand what an organization really wants. We’ve done enough of these types of projects and talked with people in various roles at different levels, such that we can appreciate the degree to which organizations are compartmentalized and siloed. When we conduct a stakeholder alignment workshop, it's not uncommon for the people we've assembled to have never been in the same room together.
+Service Blueprints: A Solution to Cross-Departmental Challenges and Cultural Inertia
+Gathering people together for the first time like this presents several challenges. One is that it's just hard to get a group like that to open up and have productive dialog. But more importantly, the new place we're helping this organization bring to life will likely need ongoing support from across the organization, i.e., the people who aren't accustomed to talking to each other. And it's even more difficult when you consider cultural inertia as a headwind.
+When this issue comes up on a project, we often turn to service blueprints. You may be familiar with this type of model already. It builds on the standard customer journey flow as its base but expands the scope to include actions taken by the organization, including those that happen behind the scenes. Nielsen Norman has a good overview of the general concept of Service Design Blueprints here.
+Service Design Blueprints present a valuable framework for thinking through potential user flows (or mapping out existing ones). The objective is to describe explicitly how the organization actually delivers its service. I think Service Design Blueprints are a good tool to have in our collective toolkit as designers and information architects…but I do have some nagging thoughts about how this plays out in the real world.
+Service Blueprints: a Powerful Tool or Just Another Trend?
+One is that once a framework gets some traction within a community of practice and begins to establish itself, there is inevitably some loss of fidelity from the original idea. Pavel Samsonov brilliantly unpacks this phenomenon in his post, "As a user, I don't want to." As he puts it, "The user story went from 'As [user] I want [to reach a goal] so that I can [obtain a benefit]' to 'As [user] I want [to do a task] so that I can [use the tool].'"
+Similarly, I worry sometimes that service blueprints get employed not because they are helping organizations wrestle with complex issues but because they have an impressive-sounding, buzzwordy name and produce visuals that slot well into the UX deliverable milieu — sort of a mash-up of a user journey diagram and the ubiquitous sticky-note-filled whiteboard. In this case, the poor designer is stuck in cargo cult-mode, limited to filling in boxes within the strictures of the format without understanding the WHY beyond the method.
+Finally, having produced the model, the designer or team is left with the "so what?" question: what does this model tell us to do? What does it reveal about our current practices or proposed new services? How would we know if we're doing it right?
+From Letters to Digital: The Evolution of Service Design
+Enter: "Good Services: How to Design Services that Work" by Lou Downe. Their book and approach to Service Design are refreshingly agnostic of any framework or technology. They include a timeline of services in the introductory chapter that begins in the 1800s with written letters! Lou then briskly weaves together hundreds of years of service design, whether they were consciously designed in that manner. This journey culminates in our current era, saturated with digital and physical touchpoints for countless services.
+From this, Lou abstracted fifteen principles of Service Design. Reviewing these in the book, I was struck by the similarities between how Lou conceives of services and how we at TUG think of Information Architecture.
+Designing with Purpose: The Role of Intent in Crafting Exceptional Services
+TUG’s co-founder, Dan Klyn, often uses the mantra of "WHAT Before HOW" to encourage us to align on our intent and goals before figuring out how we'll accomplish them. In a similar manner, Lou offers four starting questions to ask as you're designing (or redesigning) a service:
+What does the service do?
+How does the service work?
+Who is the service for?
+Why does the service exist?
+These are largely analogous to the questions we ask of stakeholders during our Program phase, especially if you replace the word "service" with "product," "website," or "mobile app." (And note that in thinking through the "how" in step two, Lou is referring to the details of how the service works for the end user, not the backend systems and processes that would fall under the backstage category in Service Design Blueprints.)
+Many of the other principles reflect best practices from the perspective of those using the service, our customers and users, distilled down to their essence. These include:
+Be easy to find
+Clearly explain its purpose
+Require no prior knowledge to use
+Be usable by everyone equally
+Be consistent throughout
+Downe’s Principles and Morville's Honeycomb: A Guide for Good Service Design
+Lou’s principles strike me as echoing Peter Morville's classic User Experience Honeycomb, which outlines the various facets of the user experience: useful, usable, desirable, findable, accessible, credible, and valuable.
+Given limited time and resources, how you decide to prioritize all these factors will depend on the unique forces at play in your environment. Organizational intent and the contextual understanding determined from user research will also heavily influence it. But Lou's principles establish an excellent baseline for being good that teams can and should reference when designing in a service context.
+Governance and Sustainability: The Shared Focus of Service Design and Information Architecture
+Another area of overlap between Service Design and Information Architecture that I want to highlight is a focus on governance and sustainability. Or rather: sustainability through governance.
+At TUG, we typically finish our projects with a Sustain phase that focuses on giving our clients tools to evolve and adapt the structure we're delivering so that it continues to meet the changing needs of the business and its customers.
+Similarly, the book frames change as a constant to be expected and adaptability as a strength. Lou notes that good services must be good both for the user AND the organization (in addition to being good for society at large, but that's another discussion...). Being good for the organization means that they are "profitable and easy to run," yes, but more importantly, culturally sustainable. Certainly, if the organization cannot sustainably provide the service, that service cannot be good for users over the long run.
+Sustained Success: How to Integrate Service Design Principles into your work
+What can you do in your own organization to bring a service design lens to your projects? Here are a few ideas.
+Sustained Collaboration: Many cross-functional teams come together during a project only to be disbanded upon launch. From a service design perspective, the launch is just the beginning! Try to maintain contact and connection after the formal project has ended. This connection could be in the form of governance committees, which would be responsible for the continual assessment and evolution of the service.
+Audit and Iterate: Set up periodic audits of the service to ensure it continues to align with your organization's intent and meets user needs as conditions change. Embrace the idea that nothing is ever truly finished and take the long view by building in maintenance and updates.
+Listen and Educate: Build feedback loops between you and your users through surveys, user testing, and interviews. Their feedback is invaluable for understanding real-world usage and challenges.
+Plan for Failure: One pitfall that I've noticed not just with Service Design Blueprints but any model representing a user journey is a tendency to depict the ideal "happy path" scenario in order to get buy-in — at the expense of focusing on (and trying to pre-empt) potential failure points.
+Epilogue
+Quoting from Lou’s book, "Every service fails at some point. Whether it's a temporary technical issue, poor design, or an erroneous decision — if the path ahead isn't clear or easy to complete, your user will need some sort of help through it. What differentiates your service is not whether or not it fails, but how it deals with failure when it happens."
+I'm still exploring these ideas and would love to hear from anyone who's thinking along similar lines.
+Keep in Touch
+Are you in the middle of a project that could use a Service Design Blueprint to help sort through the complexity? Give it a try and let us know how it went. Send us a message on Social Media. We’d love to hear how things turn out.
+Need Help with a Project?
+TUG is here for you. Whether you need an IA to help sort through a complex project or are just getting started with a new product or strategy and want to build on a solid foundation TUG’s experienced Architects, Designers, and Strategists are available to connect with you. Drop us a note so we can schedule some time with you.
+About the Author
+Travis is a multidisciplinary designer and information architect who strives to make technology work for people — or at least get out of their way.
+Related Articles
+Want more on the importance of architecting digital places with clear intent? Dive in deeper with these articles:
+- Help Your Product Managers Succeed With Blueprints
+- Plan Before You Build: Architecting Digital Places
+- A conversation with Andrew Hinton (audio + transcript)
+- "Built-to-Last" IA Deliverables, Part III: Integrating Models to Create Deep Meaning

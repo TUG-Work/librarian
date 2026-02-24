@@ -1,0 +1,37 @@
+Date: November 9th, 2019
+Author: Daniel O’Neil
+Reading Time: 4 min 23 sec
+Data isn’t information.
+This is the greatest quandary of the complex world we live in. We are surrounded with more data than has ever existed in human history. It is actually pretty well organized, easy to find, and separated, broadly speaking, into specific types. But when we start to think about what it all means, it can overwhelm us—or just be hard to grasp in terms we understand.
+Many thinkers have argued that our way out of this is by telling stories instead of just considering pure data. The problem with reaching for stories is that story-telling can be a very deceptive technique. Stories can rely on metaphor or dramatic exaggeration. Narratives abound that we cannot test or ground in our own experience. Even if we do try to maintain fidelity with the data, we are trained to rely on accurate calculations of single sets of data.
+So we are in this weird valley between metaphor (e.g., “He was as big as a house.”) and the barren but coherent single data set (e.g.,”The monthly interest rate is 12% this year.”). The first compares, but only for dramatic effect. The second describes, but does not explain.
+At TUG, we argue that stories should create compelling, informative comparisons that engage the audience—and are also numerically defensible. Most importantly, stories should allow you to start a discussion about the work you want to do with your client, in a language that both of you can understand. We argue that one of the most powerful tools for doing this is proportional analysis.
+The Golden Ratios of Proportional Analysis
+Proportional analysis is, simply put, a demonstration of the ratio between two or more measurable items. If someone looks at a picture or chart and easily can say, “this thing is almost as much as this other thing,” or “this is about half of the other thing,” that chart is using proportional analysis. The tool is endlessly useful; in fact it’s the secret weapon of almost all great analysts. But it really shines when when one of the metrics as familiar and the other is novel. In those situations the observer may suddenly get a new and different perspective on a new world.
+The best thing about proportional analysis is that it’s surprisingly easy to set one up that tells a very profound story. Here’s an example of the relative size of a B-2 bomber and a football field:
+B2 on Football Field by Kevin Wisbith from Imgur.com
+What’s great about this model is how it juxtaposes the proportions of an unfamiliar object—the mysterious B-2—against the familiar dimensions of an American football field. Even if we have never seen an actual B-2 bomber, everybody in this country has seen a football field, often up close. We get a sense of the size and the proportion without needing a single number. There’s also a cheat: you can look at the yardage markers and see that the bomber is between twenty and thirty yards long.
+Proportions can be powerful even if there isn’t a specific metric in the model. Here’s another example that shows the relative sizes of planets in our solar system:
+Planet Size comparison from Wikimedia Commons via CC License 3.0
+This image is lovely. It also doesn’t presume we know the actual sizes of any of the planets. But the image does establish an implicit proportion of Earth, the planet that encompasses almost all our understanding of space and distance. With that understanding, we then can use that implicit unit to compare sizes of the other planets, especially the enormous gas giants.
+So proportional analysis is compelling and straightforward. But even though it’s a powerful way to frame information, what if we don’t want to spend the time to build beautiful infographics of planetary bodies? What if our metrics are more mundane?
+“Excel”-ing at Proportional Analysis
+Well, it turns out that dumb models can be made quickly with more humble approaches. Specifically, we can use a chart, and there’s no harm in using a spreadsheet to make it. In one comparison, you can show both the movement of a thing and how it moves relative to another changing effect.
+This effect is incredibly powerful. It demonstrates:
+Potential causal relationships
+Major shifts in relationships by time point (which can be very useful if the time point is annotated)
+The relative relationship, overall, of two factors.
+Here are examples of two powerful charts. Each show effects proportionally.
+Keyword Rank Analysis, by Website
+This first chart shows the rank and presence of keywords across three websites by rank group. This graph is a little tricky because the categories are not exclusive, but aggregate as a total from left to right. Note what this does, however. The observer can use proportional analysis to understand keywords across the SAME website and across different ones, with the third website emerging only in the lower ranking keywords.
+The second chart is a simple line graph that shows the relationship between failure rate and windspeed for a system during a stress test. Notably, the failure rate suddenly jumps, even though the windspeed is increasing steadily. This suggests an interesting place to look for stress analysis; it also shows the proportional failure rate.
+In both cases proportionality is implied but easy to see. Both charts are effective for proportional analysis for a few reasons:
+1) The proportions are low-grain. Anyone looking at these charts can break the proportions into four categories at most. Now the observer can say, “it’s about 25%,” or “it’s about 75%.”
+2) The charts tell compelling, clear stories in a few sentences. “The top two sites in this space are three times as visible as the #3 site on the first page of Google.” “One third of the systems fail at windspeeds above 25 km/h”. “Two-thirds of blue site’s keywords are in the top three positions.”
+Proportion is the Translator for Our Data-Rich World
+The proportion and perspective in these charts act as our guide, our translator, for deeper understanding. Ultimately proportion and perspective should be a reference frame, a portal that first grounds the observers, and then moves them more fully into a single set of information so that they can effectively understand what’s going on.
+So ask yourself: when I tell a story, am I telling it in at least one understood reference frame? Can someone summarize the model in a couple of sentences that compare two things? Is it defensible? Can I reframe it? If you are answering “yes” to those questions, then proportional analysis has become a powerful tool in your storytelling portfolio.
+Related Articles
+Want more on the importance of clarity in information architecture? Dive in deeper with these articles:
+- Model Play Session #1: Light Sources in Your Home
+- Model Play Session #2: The Relationship of Books in Your Home

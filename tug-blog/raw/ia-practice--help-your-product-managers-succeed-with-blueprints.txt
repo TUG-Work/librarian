@@ -1,0 +1,30 @@
+Date: March 16, 2023
+Author: Daniel O'Neil
+Reading Time: 3 min 21 sec
+Summary
+Product managers are effective when they think like architects.
+Architects create blueprints, and blueprints are different from requirements.
+Not all product managers know how to make blueprints, but they can achieve great success for their team when they have them.
+Product Managers Are More Successful When They Have Better Initial Specifications
+Product managers are magical. They take a broad business and organizational vision and then guide a team of engineers and builders so that the final product reflects a concrete vision. The skills involved are diplomacy, technical know-how, a smidgen of project management, and strategic thinking.
+Yet product managers often do this remarkable work in the absence of good initial specifications, which makes their job harder than it has to be. Even with some initial requirements laid out, end-products that meet those requirements and come in on time and under budget may fail to satisfy the stakeholders who championed the product in the first place.
+Great Product Managers Love Blueprints
+Enter blueprints. Blueprints are different from requirements. Requirements explain what a given feature is expected to do. They are specific capabilities for the product. Blueprints, in contrast, do not tell you how to make a thing; instead, they provide an enduring vision of what the place looks like that should emerge from your work. For example, requirements will tell you, “the kitchen needs to have five overhead lights.” Blueprints will show you where they are and how they connect to the whole.
+Even though Blueprints in the digital world may look very different from the ones you need to create a house, they are still crucial to a digital product’s success, and great Product Managers love it when they can get their hands on them.
+Requirements versus Blueprints
+Blueprints Are a Product Manager’s North Star
+A blueprint is the North Star of any project in the built or digital world. In our experience, the best product managers use blueprints to guide their projects, be it a service blueprint, a user story map, or just a compelling, durable narrative.
+Product Managers Can Get Help From Information Architects
+Product managers don’t always have the architectural skills to make a blueprint, and they may not think like architects just yet, but they can read blueprints. In our experience, they are very effective at using them because a blueprint is a core document for keeping the project story durable and clear—storytelling also seems to be one of the great powers a good product manager has. This is why TUG’s information architecture products work well with collaborative teams. In almost every context where people are trying to find ways to make complex systems and places clearer, information architecture (IA) provides that clarity. We talk about the impact of IA and how it helps iterative development in this article titled “Guide New Product Development by Adding Information Architecture” if you are interested in learning more.
+Organizations That Work With Blueprints Enjoy Better Outcomes
+The concept of a blueprint is almost entirely absent from modern software development. Still, we have found that organizations that provide them enjoy better outcomes and outcomes that are delightful to stakeholders and users alike. We hope that this is what organizations are aiming for to begin with.
+Product Managers are indeed magical. They already achieve great things for organizations through their multi-faceted talents. Giving them the tools to be ultra-successful separates the good from the great. In our experience, that greatness comes when they and their teams work from a clear blueprint.
+What’s Next?
+If you are a PM, take an information architecture class to expand your thinking about architecture as part of your product manager skill set.
+If you are trying to support a PM or improve product outcomes, think about this: PMs may not have time to get training in information architecture disciplines, but they tend to think like architects almost by default. Help them by giving them collaborators who can develop blueprints to support their projects.
+Need Help?
+TUG is here for you. Whether you need an IA to help sort through a complex project or are just getting started with a new product or strategy and want to build on a solid foundation TUG’s experienced Architects, Designers, and Strategists are available to connect with you. We have a slack channel we would love to connect with you on, or if you need to have a more extended conversation to share about the complexity in your world, feel free to drop us a note and connect with us.
+Related Articles
+Want to think more deeply about the dynamic between information architecture and product managers? Dive in deeper with these articles:
+- Product Managers’ Top 3 Misconceptions About Information Architecture
+- Guide New Product Development by Adding Information Architecture

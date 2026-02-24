@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/tug-blog/dashboard/$1" }
+  ]
+}

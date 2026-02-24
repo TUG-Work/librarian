@@ -1,0 +1,334 @@
+{
+  "name": "tug-blog",
+  "description": "The Understanding Group blog posts on IA Practice and IA Theory",
+  "source": "https://understandinggroup.com",
+  "collected": "2026-02-24T10:25:08.572513",
+  "document_count": 40,
+  "categories": [
+    "ia-practice",
+    "ia-theory"
+  ],
+  "articles": [
+    {
+      "url": "https://understandinggroup.com/ia-practice/the-three-laws-of-good-project-roadmapping",
+      "category": "ia-practice",
+      "slug": "the-three-laws-of-good-project-roadmapping",
+      "filename": "ia-practice--the-three-laws-of-good-project-roadmapping.txt",
+      "char_count": 4096,
+      "fetched_at": "2026-02-24T10:24:33.601347"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/three-guidelines-for-making-useful-taxonomies",
+      "category": "ia-practice",
+      "slug": "three-guidelines-for-making-useful-taxonomies",
+      "filename": "ia-practice--three-guidelines-for-making-useful-taxonomies.txt",
+      "char_count": 7631,
+      "fetched_at": "2026-02-24T10:24:34.518456"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+      "category": "ia-practice",
+      "slug": "reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+      "filename": "ia-practice--reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop.txt",
+      "char_count": 12426,
+      "fetched_at": "2026-02-24T10:24:35.458468"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/applying-a-service-design-lens-to-information-architecture-practice",
+      "category": "ia-practice",
+      "slug": "applying-a-service-design-lens-to-information-architecture-practice",
+      "filename": "ia-practice--applying-a-service-design-lens-to-information-architecture-practice.txt",
+      "char_count": 10402,
+      "fetched_at": "2026-02-24T10:24:36.199927"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/beyond-jargon-the-power-of-plain-language-in-information-architecture",
+      "category": "ia-practice",
+      "slug": "beyond-jargon-the-power-of-plain-language-in-information-architecture",
+      "filename": "ia-practice--beyond-jargon-the-power-of-plain-language-in-information-architecture.txt",
+      "char_count": 10261,
+      "fetched_at": "2026-02-24T10:24:36.946843"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+      "category": "ia-practice",
+      "slug": "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+      "filename": "ia-practice--learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn.txt",
+      "char_count": 6954,
+      "fetched_at": "2026-02-24T10:24:37.856566"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/help-your-product-managers-succeed-with-blueprints",
+      "category": "ia-practice",
+      "slug": "help-your-product-managers-succeed-with-blueprints",
+      "filename": "ia-practice--help-your-product-managers-succeed-with-blueprints.txt",
+      "char_count": 4990,
+      "fetched_at": "2026-02-24T10:24:38.867146"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+      "category": "ia-practice",
+      "slug": "managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+      "filename": "ia-practice--managing-conceptual-debt-using-modeling-to-gain-understanding-1.txt",
+      "char_count": 2740,
+      "fetched_at": "2026-02-24T10:24:39.791115"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/model-play-session-2-relationships-of-books-within-your-home",
+      "category": "ia-practice",
+      "slug": "model-play-session-2-relationships-of-books-within-your-home",
+      "filename": "ia-practice--model-play-session-2-relationships-of-books-within-your-home.txt",
+      "char_count": 2850,
+      "fetched_at": "2026-02-24T10:24:40.634511"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/modeling-for-team-play-1-light-sources-in-your-home",
+      "category": "ia-practice",
+      "slug": "modeling-for-team-play-1-light-sources-in-your-home",
+      "filename": "ia-practice--modeling-for-team-play-1-light-sources-in-your-home.txt",
+      "char_count": 2200,
+      "fetched_at": "2026-02-24T10:24:41.483384"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/five-ways-to-tell-if-you-suffer-from-conceptual-debt",
+      "category": "ia-practice",
+      "slug": "five-ways-to-tell-if-you-suffer-from-conceptual-debt",
+      "filename": "ia-practice--five-ways-to-tell-if-you-suffer-from-conceptual-debt.txt",
+      "char_count": 3309,
+      "fetched_at": "2026-02-24T10:24:42.246790"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/intension-modeling-gains-alignment-1",
+      "category": "ia-practice",
+      "slug": "intension-modeling-gains-alignment-1",
+      "filename": "ia-practice--intension-modeling-gains-alignment-1.txt",
+      "char_count": 3500,
+      "fetched_at": "2026-02-24T10:24:43.106225"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/plain-language-model-amp-guide",
+      "category": "ia-practice",
+      "slug": "plain-language-model-amp-guide",
+      "filename": "ia-practice--plain-language-model-amp-guide.txt",
+      "char_count": 4924,
+      "fetched_at": "2026-02-24T10:24:44.035987"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/is-your-companys-complexity-essential-or-artificial",
+      "category": "ia-practice",
+      "slug": "is-your-companys-complexity-essential-or-artificial",
+      "filename": "ia-practice--is-your-companys-complexity-essential-or-artificial.txt",
+      "char_count": 6674,
+      "fetched_at": "2026-02-24T10:24:45.009289"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/dan-klyns-sermon-notes-for-wiad-bristol-2021",
+      "category": "ia-practice",
+      "slug": "dan-klyns-sermon-notes-for-wiad-bristol-2021",
+      "filename": "ia-practice--dan-klyns-sermon-notes-for-wiad-bristol-2021.txt",
+      "char_count": 18348,
+      "fetched_at": "2026-02-24T10:24:45.926241"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/talking-about-tugs-information-architecture-staycation-workshop",
+      "category": "ia-practice",
+      "slug": "talking-about-tugs-information-architecture-staycation-workshop",
+      "filename": "ia-practice--talking-about-tugs-information-architecture-staycation-workshop.txt",
+      "char_count": 7046,
+      "fetched_at": "2026-02-24T10:24:46.956260"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/talking-about-tugs-modeling-for-clarity-workshop",
+      "category": "ia-practice",
+      "slug": "talking-about-tugs-modeling-for-clarity-workshop",
+      "filename": "ia-practice--talking-about-tugs-modeling-for-clarity-workshop.txt",
+      "char_count": 8508,
+      "fetched_at": "2026-02-24T10:24:47.871305"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/graceful-change-for-intranet-communities",
+      "category": "ia-practice",
+      "slug": "graceful-change-for-intranet-communities",
+      "filename": "ia-practice--graceful-change-for-intranet-communities.txt",
+      "char_count": 4690,
+      "fetched_at": "2026-02-24T10:24:48.795028"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/how-was-your-last-site-redesign",
+      "category": "ia-practice",
+      "slug": "how-was-your-last-site-redesign",
+      "filename": "ia-practice--how-was-your-last-site-redesign.txt",
+      "char_count": 1667,
+      "fetched_at": "2026-02-24T10:24:49.731500"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-practice/tell-better-stories-with-proportional-analysis",
+      "category": "ia-practice",
+      "slug": "tell-better-stories-with-proportional-analysis",
+      "filename": "ia-practice--tell-better-stories-with-proportional-analysis.txt",
+      "char_count": 6830,
+      "fetched_at": "2026-02-24T10:24:50.748606"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/leading-your-team-in-the-face-of-ai",
+      "category": "ia-theory",
+      "slug": "leading-your-team-in-the-face-of-ai",
+      "filename": "ia-theory--leading-your-team-in-the-face-of-ai.txt",
+      "char_count": 4504,
+      "fetched_at": "2026-02-24T10:24:51.532313"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/ethical-ai-integration-with-the-aligned-groups-framework",
+      "category": "ia-theory",
+      "slug": "ethical-ai-integration-with-the-aligned-groups-framework",
+      "filename": "ia-theory--ethical-ai-integration-with-the-aligned-groups-framework.txt",
+      "char_count": 2308,
+      "fetched_at": "2026-02-24T10:24:52.376559"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence",
+      "category": "ia-theory",
+      "slug": "it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence",
+      "filename": "ia-theory--it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence.txt",
+      "char_count": 11812,
+      "fetched_at": "2026-02-24T10:24:53.294811"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/information-architecture-is-a-best-practice-now-so-bring-on-the-metrics",
+      "category": "ia-theory",
+      "slug": "information-architecture-is-a-best-practice-now-so-bring-on-the-metrics",
+      "filename": "ia-theory--information-architecture-is-a-best-practice-now-so-bring-on-the-metrics.txt",
+      "char_count": 4630,
+      "fetched_at": "2026-02-24T10:24:54.213572"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/otc",
+      "category": "ia-theory",
+      "slug": "otc",
+      "filename": "ia-theory--otc.txt",
+      "char_count": 5799,
+      "fetched_at": "2026-02-24T10:24:55.125882"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/politics-of-classification-resmini",
+      "category": "ia-theory",
+      "slug": "politics-of-classification-resmini",
+      "filename": "ia-theory--politics-of-classification-resmini.txt",
+      "char_count": 423,
+      "fetched_at": "2026-02-24T10:24:55.992281"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/how-conceptual-models-avoid-failure-in-digital-projects",
+      "category": "ia-theory",
+      "slug": "how-conceptual-models-avoid-failure-in-digital-projects",
+      "filename": "ia-theory--how-conceptual-models-avoid-failure-in-digital-projects.txt",
+      "char_count": 7326,
+      "fetched_at": "2026-02-24T10:24:56.901272"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+      "category": "ia-theory",
+      "slug": "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+      "filename": "ia-theory--communicators-in-higher-education-are-pivotal-to-ethical-ai-integration.txt",
+      "char_count": 10821,
+      "fetched_at": "2026-02-24T10:24:57.675692"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/ethical-ai-beyond-application-to-integration",
+      "category": "ia-theory",
+      "slug": "ethical-ai-beyond-application-to-integration",
+      "filename": "ia-theory--ethical-ai-beyond-application-to-integration.txt",
+      "char_count": 5608,
+      "fetched_at": "2026-02-24T10:24:58.527379"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/iac2023recap",
+      "category": "ia-theory",
+      "slug": "iac2023recap",
+      "filename": "ia-theory--iac2023recap.txt",
+      "char_count": 6839,
+      "fetched_at": "2026-02-24T10:24:59.378045"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/ia-in-a-world-of-bullsht",
+      "category": "ia-theory",
+      "slug": "ia-in-a-world-of-bullsht",
+      "filename": "ia-theory--ia-in-a-world-of-bullsht.txt",
+      "char_count": 8322,
+      "fetched_at": "2026-02-24T10:25:00.296106"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/bring-innovation-back-to-agile-by-adding-information-architecture",
+      "category": "ia-theory",
+      "slug": "bring-innovation-back-to-agile-by-adding-information-architecture",
+      "filename": "ia-theory--bring-innovation-back-to-agile-by-adding-information-architecture.txt",
+      "char_count": 3519,
+      "fetched_at": "2026-02-24T10:25:01.186314"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/making-use-of-blueprints-to-improve-your-agile-projects",
+      "category": "ia-theory",
+      "slug": "making-use-of-blueprints-to-improve-your-agile-projects",
+      "filename": "ia-theory--making-use-of-blueprints-to-improve-your-agile-projects.txt",
+      "char_count": 4361,
+      "fetched_at": "2026-02-24T10:25:02.109055"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/is-your-company-blindly-building-software",
+      "category": "ia-theory",
+      "slug": "is-your-company-blindly-building-software",
+      "filename": "ia-theory--is-your-company-blindly-building-software.txt",
+      "char_count": 4029,
+      "fetched_at": "2026-02-24T10:25:02.883425"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/rigorous-modeling-frameworks-for-deep-understanding",
+      "category": "ia-theory",
+      "slug": "rigorous-modeling-frameworks-for-deep-understanding",
+      "filename": "ia-theory--rigorous-modeling-frameworks-for-deep-understanding.txt",
+      "char_count": 3461,
+      "fetched_at": "2026-02-24T10:25:03.695505"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/information-architecture-and-incremental-website-improvement",
+      "category": "ia-theory",
+      "slug": "information-architecture-and-incremental-website-improvement",
+      "filename": "ia-theory--information-architecture-and-incremental-website-improvement.txt",
+      "char_count": 4121,
+      "fetched_at": "2026-02-24T10:25:04.327752"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/fix-digital-strategy-with-information-architecture",
+      "category": "ia-theory",
+      "slug": "fix-digital-strategy-with-information-architecture",
+      "filename": "ia-theory--fix-digital-strategy-with-information-architecture.txt",
+      "char_count": 4802,
+      "fetched_at": "2026-02-24T10:25:05.261950"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/four-objections-developers-have-about-information-architecture",
+      "category": "ia-theory",
+      "slug": "four-objections-developers-have-about-information-architecture",
+      "filename": "ia-theory--four-objections-developers-have-about-information-architecture.txt",
+      "char_count": 6270,
+      "fetched_at": "2026-02-24T10:25:06.110042"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/why-do-we-still-build-websites-like-its-1999",
+      "category": "ia-theory",
+      "slug": "why-do-we-still-build-websites-like-its-1999",
+      "filename": "ia-theory--why-do-we-still-build-websites-like-its-1999.txt",
+      "char_count": 3151,
+      "fetched_at": "2026-02-24T10:25:06.998498"
+    },
+    {
+      "url": "https://understandinggroup.com/ia-theory/good-web-design-creates-joyful-user-experiences",
+      "category": "ia-theory",
+      "slug": "good-web-design-creates-joyful-user-experiences",
+      "filename": "ia-theory--good-web-design-creates-joyful-user-experiences.txt",
+      "char_count": 4749,
+      "fetched_at": "2026-02-24T10:25:07.922235"
+    }
+  ],
+  "errors": []
+}

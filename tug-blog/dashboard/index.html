@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUG Blog Analysis Dashboard</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        h1 { margin: 0 0 10px 0; }
+        .subtitle { color: #666; margin-bottom: 20px; }
+        
+        /* Stats cards */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+        .stat-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .stat-card.active { border-color: #333; }
+        .stat-card .count { font-size: 36px; font-weight: bold; }
+        .stat-card .label { color: #666; }
+        .stat-card.sara { border-left: 4px solid #e74c3c; }
+        .stat-card.laura { border-left: 4px solid #3498db; }
+        .stat-card.ben { border-left: 4px solid #2ecc71; }
+        .stat-card.sue { border-left: 4px solid #9b59b6; }
+        
+        /* Filters */
+        .filters {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .filters label { font-weight: 500; }
+        .filters select, .filters input {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .filters input[type="text"] { width: 200px; }
+        .clear-btn {
+            background: #eee;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .clear-btn:hover { background: #ddd; }
+        
+        /* Gap analysis */
+        .gap-analysis {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .gap-analysis h3 { margin: 0 0 10px 0; }
+        .gap-item { margin: 5px 0; }
+        
+        /* Table */
+        .table-container {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+        }
+        th:hover { background: #e9ecef; }
+        tr:hover { background: #f8f9fa; }
+        
+        /* Tags */
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin: 2px;
+        }
+        .tag.persona-sara { background: #fde8e8; color: #c0392b; }
+        .tag.persona-laura { background: #e8f4fd; color: #2980b9; }
+        .tag.persona-ben { background: #e8fde8; color: #27ae60; }
+        .tag.persona-sue { background: #f3e8fd; color: #8e44ad; }
+        .tag.concept { background: #f0f0f0; color: #555; }
+        .tag.pain { background: #fff0e0; color: #d35400; }
+        
+        /* Links */
+        a { color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        /* Related */
+        .related { font-size: 12px; color: #888; }
+        
+        /* Category badge */
+        .category {
+            font-size: 11px;
+            text-transform: uppercase;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: #eee;
+        }
+        .category.ia-practice { background: #d4edda; color: #155724; }
+        .category.ia-theory { background: #cce5ff; color: #004085; }
+        
+        /* Responsive */
+        @media (max-width: 800px) {
+            .filters { flex-direction: column; align-items: stretch; }
+            .filters input[type="text"] { width: 100%; }
+            th, td { padding: 8px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>TUG Blog Analysis Dashboard</h1>
+    <p class="subtitle">40 articles analyzed for persona relevance and topic coverage</p>
+    
+    <div class="stats" id="persona-cards"></div>
+    
+    <div class="gap-analysis" id="gap-analysis"></div>
+    
+    <div class="filters">
+        <label>Search:</label>
+        <input type="text" id="search" placeholder="Filter by title or concept...">
+        
+        <label>Category:</label>
+        <select id="filter-category">
+            <option value="">All</option>
+            <option value="ia-practice">IA Practice</option>
+            <option value="ia-theory">IA Theory</option>
+        </select>
+        
+        <label>Format:</label>
+        <select id="filter-format">
+            <option value="">All</option>
+            <option value="thought-leadership">Thought Leadership</option>
+            <option value="how-to">How-To</option>
+            <option value="framework">Framework</option>
+            <option value="case-study">Case Study</option>
+            <option value="interview">Interview</option>
+        </select>
+        
+        <label>Pain Point:</label>
+        <select id="filter-pain">
+            <option value="">All</option>
+        </select>
+        
+        <button class="clear-btn" onclick="clearFilters()">Clear Filters</button>
+    </div>
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortTable('title')">Title ↕</th>
+                    <th onclick="sortTable('primary_persona')">Primary Persona ↕</th>
+                    <th onclick="sortTable('category')">Category ↕</th>
+                    <th>Pain Points</th>
+                    <th>Concepts</th>
+                    <th>Related</th>
+                </tr>
+            </thead>
+            <tbody id="articles-table"></tbody>
+        </table>
+    </div>
+    
+    <script>
+        let data = null;
+        let currentSort = { field: 'title', asc: true };
+        let activePersona = null;
+        
+        async function init() {
+            const response = await fetch('data.json');
+            data = await response.json();
+            
+            renderPersonaCards();
+            populateFilters();
+            renderTable();
+            renderGapAnalysis();
+            
+            // Event listeners
+            document.getElementById('search').addEventListener('input', renderTable);
+            document.getElementById('filter-category').addEventListener('change', renderTable);
+            document.getElementById('filter-format').addEventListener('change', renderTable);
+            document.getElementById('filter-pain').addEventListener('change', renderTable);
+        }
+        
+        function renderPersonaCards() {
+            const container = document.getElementById('persona-cards');
+            const personas = [
+                { id: 'sara', name: 'Sara', subtitle: 'C-Level Executive' },
+                { id: 'laura', name: 'Laura', subtitle: 'VP Marketing Nonprofit' },
+                { id: 'ben', name: 'Ben', subtitle: 'Product Manager' },
+                { id: 'sue', name: 'Sue', subtitle: 'UX Lead' },
+            ];
+            
+            container.innerHTML = personas.map(p => `
+                <div class="stat-card ${p.id}" onclick="togglePersona('${p.id}')" id="card-${p.id}">
+                    <div class="count">${data.personas[p.id].count}</div>
+                    <div class="label">${p.name}</div>
+                    <div class="label" style="font-size:12px">${p.subtitle}</div>
+                </div>
+            `).join('');
+        }
+        
+        function togglePersona(persona) {
+            if (activePersona === persona) {
+                activePersona = null;
+                document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+            } else {
+                activePersona = persona;
+                document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+                document.getElementById(`card-${persona}`).classList.add('active');
+            }
+            renderTable();
+        }
+        
+        function populateFilters() {
+            const painSelect = document.getElementById('filter-pain');
+            Object.keys(data.pain_counts).forEach(pain => {
+                const opt = document.createElement('option');
+                opt.value = pain;
+                opt.textContent = `${pain.replace(/-/g, ' ')} (${data.pain_counts[pain]})`;
+                painSelect.appendChild(opt);
+            });
+        }
+        
+        function getFilteredArticles() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const category = document.getElementById('filter-category').value;
+            const format = document.getElementById('filter-format').value;
+            const pain = document.getElementById('filter-pain').value;
+            
+            return data.articles.filter(a => {
+                if (activePersona && a.primary_persona !== activePersona) return false;
+                if (search && !a.title.toLowerCase().includes(search) && 
+                    !a.concepts.some(c => c.includes(search))) return false;
+                if (category && a.category !== category) return false;
+                if (format && a.format !== format) return false;
+                if (pain && !a.pain_points.includes(pain)) return false;
+                return true;
+            });
+        }
+        
+        function sortTable(field) {
+            if (currentSort.field === field) {
+                currentSort.asc = !currentSort.asc;
+            } else {
+                currentSort.field = field;
+                currentSort.asc = true;
+            }
+            renderTable();
+        }
+        
+        function renderTable() {
+            let articles = getFilteredArticles();
+            
+            articles.sort((a, b) => {
+                let va = a[currentSort.field] || '';
+                let vb = b[currentSort.field] || '';
+                if (typeof va === 'string') va = va.toLowerCase();
+                if (typeof vb === 'string') vb = vb.toLowerCase();
+                if (va < vb) return currentSort.asc ? -1 : 1;
+                if (va > vb) return currentSort.asc ? 1 : -1;
+                return 0;
+            });
+            
+            const tbody = document.getElementById('articles-table');
+            tbody.innerHTML = articles.map(a => `
+                <tr>
+                    <td>
+                        <a href="${a.url}" target="_blank">${a.title}</a>
+                        <span class="category ${a.category}">${a.category}</span>
+                    </td>
+                    <td>
+                        <span class="tag persona-${a.primary_persona}">${a.primary_persona}</span>
+                        ${a.secondary_personas.map(p => `<span class="tag persona-${p}" style="opacity:0.6">${p}</span>`).join('')}
+                    </td>
+                    <td><span class="tag">${a.format}</span></td>
+                    <td>${a.pain_points.map(p => `<span class="tag pain">${p.replace(/-/g, ' ')}</span>`).join('')}</td>
+                    <td>${a.concepts.map(c => `<span class="tag concept">${c}</span>`).join('')}</td>
+                    <td class="related">${a.related_articles.slice(0,2).map(r => r.split('-').slice(0,3).join(' ')).join(', ')}</td>
+                </tr>
+            `).join('');
+        }
+        
+        function renderGapAnalysis() {
+            const container = document.getElementById('gap-analysis');
+            
+            // Find personas with few articles
+            const gaps = [];
+            
+            const personaCounts = data.personas;
+            const avg = Object.values(personaCounts).reduce((a,b) => a + b.count, 0) / 4;
+            
+            Object.entries(personaCounts).forEach(([id, p]) => {
+                if (p.count < avg * 0.7) {
+                    gaps.push(`<span class="tag persona-${id}">${p.name}</span> has only ${p.count} primary articles (below average of ${avg.toFixed(0)})`);
+                }
+            });
+            
+            // Check for AI content distribution
+            const aiArticles = data.articles.filter(a => 
+                a.concepts.some(c => c.includes('ai')) || 
+                a.pain_points.includes('ai-anxiety')
+            );
+            const aiForSara = aiArticles.filter(a => a.primary_persona === 'sara').length;
+            const aiForOthers = aiArticles.filter(a => a.primary_persona !== 'sara').length;
+            
+            if (aiForSara > aiForOthers) {
+                gaps.push(`AI content is concentrated on Sara (${aiForSara} articles). Consider Ben/Sue angles on AI.`);
+            }
+            
+            // Check pain point coverage
+            const underservedPains = Object.entries(data.pain_counts)
+                .filter(([p, c]) => c < 3)
+                .map(([p, c]) => `"${p.replace(/-/g, ' ')}" (${c})`);
+            
+            if (underservedPains.length > 0) {
+                gaps.push(`Underserved pain points: ${underservedPains.join(', ')}`);
+            }
+            
+            container.innerHTML = `
+                <h3>📊 Gap Analysis</h3>
+                ${gaps.length > 0 
+                    ? gaps.map(g => `<div class="gap-item">• ${g}</div>`).join('')
+                    : '<div class="gap-item">✓ Good coverage across personas and pain points</div>'
+                }
+            `;
+        }
+        
+        function clearFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('filter-category').value = '';
+            document.getElementById('filter-format').value = '';
+            document.getElementById('filter-pain').value = '';
+            activePersona = null;
+            document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+            renderTable();
+        }
+        
+        init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Recently we talked about the difference between technical debt and conceptual debt, and ways to identify if your organization has a conceptual debt problem. If you are in fact aware of your conceptual debt, how can your organization effectively avoid or fix it? The answer lies in your organization’s models.
+Conceptual Debt Arises from a Failure to Model
+A number of people have raised the issues of conceptual debt, but it was Einar Host who argued that conceptual debt is a failure of modeling. What he means by a model is something that can be used to play with and unpack an idea about an organization’s data, products, or services using a common vocabulary.
+Good models:
+Work through ideas faster
+Make the invisible visible
+See the boundaries and contents of a system
+Document systems
+Ask better questions
+And create molds for making other things
+Overcoming Conceptual Debt through a Modeling Culture
+The first thing to do to tackle conceptual debt is to create a modeling culture, especially among your strategic thinkers and planners.
+The approach is profoundly powerful, but requires courage to embrace. Courage is vital! because when we go deeper in the understanding of things, we discover competing needs, politics, and hidden assumptions. As Einar Hørst puts it, “technical work is puzzle solving, whereas modeling work reveals tensions.”
+Once an organization starts modeling, it can use them to gain understanding in almost every context. Models provide a basis for mutual understanding that helps disambiguate meaning in your organization, and once meaning is clear within your organization, it will be clear in your processes, data, products, and services. At TUG we like to say that a model is a drawing worth 1,000 conversations.
+TUG’s Modeling Expertise
+Learning how to model well is a practice, but it can completely transform an organization. TUG has had great success training teams to model. We’ve also used modeling to help companies get our of their conceptual debt concerns so that their subsequent development efforts were incredibly successful.
+This isn’t a simple step by step process; modeling is a practice, and there are many ways to approach it. But TUG has found that there are a number of principles and concepts that, when applied as a framework, can be profoundly powerful in the creation and adoption of models for creating understanding.
+If you’re interested in learning how TUG used modeling to help companies clear away their conceptual debt, or you want to teach your team how to use models for planning, design, or strategy, talk with us here!
+If you’re interested in investing in this valuable skill of modeling for yourself or your whole team, consider joining our Modeling for Clarity Workshop.

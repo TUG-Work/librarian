@@ -1,0 +1,15 @@
+Creating models is a practice that leads to understanding. So each week for several months, the Understanding Group team did just that—we practiced modeling. Each week started off with a fairly open-ended “model prompt” that all TUG associates were invited to use to create a model. Then on Fridays we got together for an hour to both critique and explain our models to one another. It was fun and we had a good time with it.
+This week’s challenge was to communicate information about the sources of light within one’s home.
+An Inventory of Light Sources, Controls, and Intensity
+This one gives an overall analysis within the home(left) and then you can see the outputs on the model(right). This one takes both an inventory of light sources available, their controls, and intensity in each room.
+Room Utilization Compared to Sunlight
+This one really digs into the reliance upon various sources of light throughout the day. Lots of inputs were used in creating this model (# of windows, amount of sunlight, orientation of room, occupancy, etc).
+Location of Occupants and Utilizing Curtains
+This model is a mockup of the movement of a family of 4 within a 3 room house to help make decisions on drawing the curtains closed. One person in the house has medical issues that requires them to stay away from sunlight, so they were trying to track activities to know when the curtains needed to be drawn.
+Amount of Sunshine in Three Locations
+This visualization focuses on comparing natural light sources in the city where the person currently lives to a desired future city. It’s motivated by the person’s desire to run more of their future home on alternative energy sources.
+Sources of Light in a Home
+This model gives a clear inventory of the light sources within each room: Window, lamp, and ceiling fixture. This is a nice, clean presentation of the current state and allows consideration of new possibilities.
+Next week: Model prompt #2: - “How do you organize (or think about) the books in your house?”
+If you are an organization that is need of solving a complex problem, Contact Us Here.
+If you’re looking to hone your skill of modeling, click here to join us at our Modeling for Clarity Workshop.

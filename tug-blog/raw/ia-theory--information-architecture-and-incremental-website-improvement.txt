@@ -1,0 +1,21 @@
+Date: May 29, 2020
+Author: Daniel O’Neil
+Reading Time: 2 min 38 sec
+Website improvements often feel like they are one of two extremes: superficial adjustments of style (the "refresh") or a complete overhaul of concepts and intent (the "redesign"). In both cases, the major blocks are assumed to be relatively monolithic and inflexible, so the major decision is is whether or not those blocks are left in place “this time” or blown up completely and a new framework created.
+This perspective puts companies in a bind, because a refresh can be fully insufficient as a site ages, whereas a full redesign is very expensive, both in terms of financial cost and organizational focus. In the built world these two options would be the equivalent of saying that the only way a building could be changed would be by putting some new paint and eaves on it or tearing it down, ripping out the foundation, and rebuilding it from scratch.
+Is it possible to avoid this all or nothing approach to changing websites?
+Pace Layers and How Websites Learn
+From a technological perspective the answer is an emphatic yes; web technology is increasingly modular and flexible. So what remains is developing a language for design and architecture that best supports that flexibility.
+One starting point for this language is to see sites like many architects see buildings: as layered structures with different degrees of stability. Frank Duffy and Stewart Brand introduced the idea of Shearing Layers to describe the elements of a structure and how of they change.
+Duffy argued that those elements should be architected to last based on how often they change. So, for example, the geographical location of a building almost never changes, whereas the furniture inside will change weekly or monthly.
+*Shearing* between these factors is the idea that the changes in any given context happen at different paces, so if a system is not robust enough to manage the change of adjacent layers, the "shear" of change from layers moving at different paces will cause friction and inefficiency. On the other hand, a well-designed building will accommodate for this kind of change and manage for it accordingly.
+Shearing Layers exist in all enduring Things Built with complex interactions, be it a ship, a building, or a car; a website is no different. A website’s shearing layers break down into, broadly speaking, Purpose, Information Structure, Containers, Transactions, Wayfinding, and Content.
+Purpose: why are we building this site? Who is it for? What are the fundamental needs we are trying to address?
+Information (object) Structure: What are the key ideas that we are trying to convey? What are the topics what vocabularies and taxonomies should we use? What are the key relationships in the information?
+Containers: How is the information structure arranged? What goes in each section? Why?
+Wayfinding: Where, and how, can we find things?
+Transactions: How do people interact with elements of an interface to get things they want?
+Content: What populates the information structure? How does it change?
+Like the shearing layers of buildings, these layers also vary in how often they change, from weekly or even daily, for content, to information structure and purpose, which should change at most every five years.
+When we look at a site this, way, we can start to make design decisions about where certain kinds of information should reside. For example, Wayfinding is heavily dependent on indices, guide theory, tagging, and synonyms. How do we design our wayfinding so that these factors are relatively easy to change? Correspondingly, is our information structure rich and robust enough to support a variety of changes to the faster moving layers above it? These kinds of decisions can have significant impacts on the durability and flexibility of sites going forward.
+So the next time you redesign a website, ask youself: am I just reskinning rigid blocks? Have I assumed that I have to change everything? How might a shearing layer approach make this redesign better, and, more importantly, better support the improvements that come after it?

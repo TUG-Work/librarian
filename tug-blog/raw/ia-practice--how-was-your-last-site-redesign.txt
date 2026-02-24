@@ -1,0 +1,10 @@
+In an earlier blog post we talked about the “table stakes” needed to enter the new online world because of changing user expectations. The expectations are for:
+Good usability
+Integrated experience but focused "modules"
+Coverage for “my” computer or phone
+These imply significant challenges for anyone trying to build an even moderately complex online tool. But because of some major changes in current technology – specifically, the proliferation of mature web software and a large population of developers to help you build it – you can focus more on the things that closely match your core business questions and less on the tasks of getting your system online in the first place. In our experience, the essence of successfully managing these expectations is to understand and architect your online space. What does this mean? Basically to "architect" a space means to structure your websites, intranets, portals, and applications so your visitors can connect with you and find what they are looking for. While straightforward in concept, how that problem is solved is always going to be specific and unique to your company and value proposition. In order to successfully architect a site, you need to:
+understand "what" before the "how"
+get a clear sense of what "good" means
+lean into the tensions that characterize your business and customers
+look through your visitor's eyes.
+At The Understanding Group, we believe that these approaches can have huge returns in value for your organization and users. Our ebook, Laying the Foundation for Good Digital Places, shows how you can get started in considering your value proposition and understanding digital spaces.

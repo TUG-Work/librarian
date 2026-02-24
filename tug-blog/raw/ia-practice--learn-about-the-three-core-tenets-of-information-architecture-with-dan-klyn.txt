@@ -1,0 +1,51 @@
+Date: July 3, 2023
+Author: Daniel O'Neil
+Reading Time: 3 min 58 sec
+Summary
+Daniel gets the Inside Look
+What’s different about the Intro to IA Course?
+Stakeholder Alignment
+Architectural Analysis
+Sustainable Solutions
+Inside Look: Dan Klyn's Information Architecture Course at TUG
+At TUG, we’re excited about Dan Klyn’s upcoming Introduction to Information Architecture course. I hunted Dan down and asked him what was different about this IA course. This article is my attempt at summarizing the depth of this course in which Dan shares his methods and lessons from twenty years as an IA to teach you how to create effective, resilient, and beautiful products. The course has many great things in it, and since Dan has shared some of the inside details with our team, I wanted to pass on those to you, especially if you’re considering attending.
+What’s Different with this Intro to Information Architecture Course?
+First, it’s important to talk about why this course is different. Dan has a “big picture” view of Information Architecture. Information Architecture – all architecture, really – is about making the places we create good. A “Good” structure can manage the forces acting on it, be it rain, sun, heat, or cold. Achieving “good fit” between a structural form and the many forces in the environment is the role of architects and architecture.
+This is true whether you are building a house or a web application! The forces a website faces are vastly different than those of a house, but they have just as much of an impact as rain does on a roof, and getting good fits is just as important.
+This course will teach you how to realize that fit in your information projects. We will do that by teaching you how to apply our three main tenets of information architecture:
+Create stakeholder alignment with leadership teams
+Empower architectural analysis using “construction elements” that make up digital places
+Connect those construction elements and show how they work together to create a sustainable digital solution.
+Stakeholder Alignment - “What Good Means”
+The class starts by describing TUG’s process of helping get to a better sense of what “good” might mean for the organization as a whole.
+We show you how to help an organization get to “good” through a series of alignment sessions where stakeholders decide collectively on a balance between pairs of equally good but distinct possible project outcomes.
+At the end of alignment sessions, clients reframe zero-sum stakeholder positions into something more complex than a simple “yes” or “no.” The work then becomes about balancing aims. When the ground rules protect against one aim “beating” another, the clarity and durability of agreement that stakeholders can build with one another is transformative.
+In short, getting to “good” honors every participant’s aims, which means the project’s vision as a whole will be a better fit for what the company wants, and its ultimate design outcomes will be more widely accepted.
+This class gives you the tools you need to do this yourself.
+Architectural Analysis - “What Things Are”
+The next thing taught in the course is how to find, name, and characterize critical parts of a company’s digital place. We give you tools for understanding and finding these critical parts. Once you understand and find them, we will show you how to test and predict how those parts will need to change to reflect stakeholder intent better.
+This sounds simple, but it’s not. After all, most of the organizations you will work with already have plenty of visio diagrams and spreadsheets and wireframes trying to describe their environment. These tools don’t always help organizations see the systems in front of them. Architectural analysis can help organizations learn to see the structure of their system, not just a collection of its constituent parts.
+In our course, you learn how to apply analysis to a system and see the three significant ways to model things in a system as they relate to one another. Those are a thing’s meaning, how that thing exists in relation to other things, and how those things change over time. Knowing these three things can give you a powerful framework for thinking about what a system contains so that you can then architect it as a sustainable, effective solution.
+Sustainable Solutions - “How Places Work”
+After we have identified good and created a list of ways to think about the elements of a system, we can start designing solutions. The architectures of digital places are complicated, but there is a lot of shared language for understanding them. The hard part is figuring out what to emphasize and to whom so that the right things are built. Dan will teach you to do that with BASIC, a framework you can use to solve problems. It gives you five vantage points into the problem space:
+Boundaries - What Things Are
+Associations - How Things Connect
+Situations - Where Things Are
+Invariants - Constant Forces
+Cycles - Variable Forces
+These five concepts allow you to break down and design a complex system. This part of the class teaches you how to view a project through these five concepts and then helps you create blueprints for guiding and managing the development and design work yet to come.
+Epilogue
+My inside look at Dan's course made it clear to me that this isn't your typical IA course. It's a comprehensive exploration into the principles of information architecture grounded in real-world experience and practical applications. From understanding what "good" means in the context of an organization to analyzing the critical parts of a company's digital place and finally designing sustainable solutions, this course offers a holistic approach to IA.
+The course not only equips students with the tools to understand the theory of information architecture but to apply it in practical, meaningful ways. Whether you're a seasoned professional or a newcomer to the field, this course will deepen your understanding of IA and enhance your ability to create effective, resilient, and beautiful digital systems and products.
+Keep in Touch
+Our hope is that TUG continues to shape the future of the Information Architecture field. Let us know how we’re doing. Feel free to message us on Social Media. We’d love to hear from you.
+Interested in the IA Course?
+To learn more about the course and to register, check out this Intro to Information Architecture page.
+About the Author
+Daniel O’Neil is a pure analyst. His greatest pleasure is teasing out core truths from complex systems, then developing patterns, principles, and metrics that help people manage those systems better.
+Learn more about Daniel and his work at TUG here.
+Related Articles
+Want to learn more about how TUG does Information Architecture? Dive in deeper with these articles:
+- Understanding Information Architecture
+- In/Tension Models In Action: A Preview Of The World IA Day Archive
+- Basic: 5 Ways to See the Architecture of Complex Systems

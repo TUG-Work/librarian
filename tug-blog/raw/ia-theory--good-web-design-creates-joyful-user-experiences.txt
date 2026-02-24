@@ -1,0 +1,26 @@
+Summary: How do we create joyful user experiences with good web design? It's in the balancing of our human desire to gain mastery with making interfaces "easy."
+The next revolution in web design is Joy.
+Karen Holtzblatt, who is one of the creators of modern interaction design, argues that the discussion about interaction design needs to change to focus more on the idea of “Joy,”—for want of a better word—both in life and in use.
+What does this look like for users of sites? Well, in short, the fundamental role of website and app designers is to help users avoid doing anything hard at all.
+And yet we don’t always want things to be easy; in fact if everything is easy, the sense of accomplishment in life can be lost. Jesse Schell recently gave a talk called “Lessons in Game Design” that explores this idea. In Schell’s talk, he gives a lot of examples of people who seek out—in fact, expect—challenges in their gaming experience, even if they were not easy. Schell argues that many games cannot be good unless such challenges exist, largely because games need to appeal to the core facets of self-determination theory.
+Self determination reflects the deeper nature of human experience, and we hope that our technology can facilitate these facets of our nature. But Holtzblatt’s point remains: interfaces are appealing when they feel effortless. So there is this real tension between the reality that humans want to have interesting, engaging experiences that bring with them a sense of accomplishment and the need for devices to have almost an instant, transparent delivery of value for a specific need.
+And yet, both of these thinkers would argue that they are pursuing the next revolution in web design: Joy.
+Fighting the Friction
+So is joy the effortless execution of an app or the overcoming of epic digital challenges? Well, both. It has a great deal to do with the context of the effort involved, so we need to have a language—a structural vocabulary—for placing interaction design within the framework of that context.
+The first concept is friction. Any effort we take as human beings involves specific steps, be they throwing off the covers when we wake up to browsing a website. The feeling of fulfillment is in the stated goal or objective at that moment in time. When there is friction in the steps to achieve that goal, the effort to accomplish it increases it, but more importantly the steps are a distraction from the specific accomplishment. If, for example, I wanted to drive somewhere but I had to scrape ice off my windshield first, I would be experiencing friction. The step distracts from the objective.
+Sometimes, however, we do take pleasure or enjoyment from individual steps. Focus or effort on any given step can be perceived positively if it is being developed for its own right (i.e., a skill) or if it is an accepted activity that reduces the friction for a larger objective.
+I call these two activity categories “discovery”—the uncovering of something you didn’t know before, and “development”—the increase in an ability you know exists but do not yet master.
+Taken as a whole, these two concepts exist on a “mastery continuum,” where the desire of a user is either to gain mastery in a particular skill or leverage a set of skills effortlessly in the service of realization of a larger goal.
+Finding the Sweet Spot on the Mastery Continuum
+This continuum can be applied against concepts of design, because a vocabulary of good design can be emotional and associated with the use of the app (or a moment in the use of an app—but we’ll get to that in a later post) for a particular goal.
+Good web design that facilitates discovery will create feelings of:
+Realization—a sudden insight into an idea or concept we didn’t have before.
+Persistence—these moments tend to remain in our memory, enduring both in terms of the event, where it happened, with whom, etc.
+Delight—the “holy cow” moments of unexpected surprise.
+Good web design that facilitates development will create feelings of:
+Preparation—a sense that through this work you will be more ready to do something else.
+Embodiment—an internalization of a skill that you can do effortlessly that exists outside of a conscious memory.
+Accomplishment—a feeling of having achieved something, completed a task, or developed mastery.
+It is almost easier to describe feelings associated with bad design.
+These, in contrast, create feelings that will actually result in disintegration of concepts, as opposed to their development, and the regression or deterioration of skills.
+Now that we have these “dumb models” in place, we’ll start exploring specific examples of “good” and “bad” experiences, as well as how “good” and “bad” web design can affect them. Stay tuned!

@@ -1,0 +1,41 @@
+Summary: Be sure your digital strategy includes an architectural analysis of your organization's needs. Or you'll end up with a yurt.
+Digital strategy is broken. Seriously, it really is. Let’s do a thought experiment.
+Suppose someone you know wants you to help them build a house. You sit down the stakeholders to get a clear vision of what they would do there, the people involved, and their specific needs. After careful thought and planning, you deliver a yurt.
+Yurts so bad. By Bouette (GFDL, CC-BY-SA-3.0, via Wikimedia Commons)
+A yurt with an outhouse, no electrical wiring, plumbing, or central air. The clients are demonstrably upset. But you point out that they asked for a well-lit, heated place where they could entertain and educate their children. “All that stuff like electricity is just technology,” you explain. “What I am doing is helping you realize your VISION.”
+Would anyone ever ask you build a house again?
+Then why is this how we do digital strategy?
+This is not a straw man argument. If you review definitions of digital strategy that are broadly discussed, you see specific, common themes:
+An emphasis on management.
+Calling organizational and marketing needs “digital”.
+Being focused on past technological innovations without really engaging with emerging or future-state technologies.
+This pattern is understandable. All strategy requires some abstraction in order to focus on the final need. But the only reason something can be safely abstracted away is because we all understand some set of common core ideas about that thing. If these cornerstone ideas do not undergird the strategy, it will lack traction, or worse, be inaccurate. And nothing is easier to lose sight of than new things emerging from technology at the level of the user interaction.
+Spotting the Yurtists
+So how do you spot people who might not be thinking about technology as a user-focused medium that influences strategy directly? You might be getting a yurt if they:
+casually use technological metaphors from platforms that were released more than five years ago.
+have been using specific technology metaphors but then get impatient or uncomfortable with descriptions of other technological solutions.
+generally speaking, don’t acknowledge the impact of technology on work using examples at the level of a user experience, or talk about UX examples that describe older capabilities.
+Let’s expand on the last point, because it’s the most common trap. Most digital strategists were, at one point, very invested in technology and how it worked. The problem is that the technology is constantly changing and it’s hard to keep up. So for example a digital strategist who was a little behind might talk about digital technology that enabled work that was:
+Curated
+Automated
+Asynchronous
+About digital content
+Specific
+Single-threaded inputs
+Stationary
+These are all reasonable things, and they are all true. But generally speaking this list reflects capabilities that were state of the art in the early aughts.
+We now live in a world where digital technology enables work that is:
+Unprocessed
+Customized
+Synchronous
+About physical content
+Diverse/subtle
+Crowd-sourced
+Mobile/Active
+Now, this isn’t to say that digital strategists aren’t keeping up with what is rolling out technology-wise, but they may not be thinking about the impact on that technology to specific aspects of user experience.
+To put it another way, the most difficult part of technology isn’t keeping up with what’s new. It’s being thoughtful about how that technology is going to change the structure of what we can do to serve humans in digital places.
+Information Architecture Enhances Strategy and Reduces Yurtiness
+So how do we help digital strategists address the way people use technology in a digital space? Information Architecture is one critical lever for them to use. Simply put, information architects are uniquely suited to discovering how things interact and create a digital place. When we consult on digital strategy, our information architects at TUG consider these questions in the context of structure (usually screens in an office), and the actual work. We also consider the meaning of the work to an organization, because it helps ground our approach to understand what is fundamentally needed. Finally, our analysis is heavily involved in the integration of these concepts with the technology that supports those interactions.
+So the next time you consider digital strategy, make sure you consider the architecture of the world you intend to realize in the context of technology, and confirm that your strategist has as well.
+Need Help?
+If you have questions about putting together a digital strategy that transforms your business, drop us a line! We’d love to hear about your challenges and see how we might help.

@@ -1,0 +1,17 @@
+Date: August 20, 2020
+Author: Daniel O’Neil
+Reading Time: 2 min 24 sec
+In a previous blog post we described the warning signs that your organization might be struggling to guide your Development teams when trying to make new products. Read the whole thing when you get a chance, but the key point is that almost all challenges development faces in new product development are the result of a disconnect between the intent of the organization and the development teams trying to realize it. In other words, software development processes increasingly succeed in building things very well; it does not, however, always understand what needs building.
+The metaphor we sometimes use is that software teams are fantastic at laying track, but they don’t have inherent compasses or maps. This is actually intentional; after all, the whole point of a production resource is to better crystallize the needs of the organization and then develop something that tightly matches those needs. But software teams are often not given enough to go on in terms of what they should make.
+Why Product Development Needs Information Architecture Planning
+What is needed is some way to help organizations get better alignment on the vision of the software they want to create. In the built world, this is achieved through PLANNING that produces MODELS - representations of a place that can be used to scope out the engineering and crafting tasks needed to create the thing the design describes.
+The Understanding Group relies on models to get broad clarity as well, although in the case of software, it’s not a single model or specification, but multiple models that:
+allow for alignment across typical boundaries and disciplines in the organization, and
+have persistence and relevance at every stage of the project, not just in a particular sprint or for a particular feature.
+Information Architecture, in other words, helps you understand the “what’s” and “whys” of what you intend to build. It gives you the tools to describe your vision, “make it be good”, and to remember what those things are throughout the length of a project.
+What IA Planning Looks like in Iterative Development
+So where does this go in a typical iterative project? Basically Information Architecture Planning fits in well with any planning sprint or “iteration zero”, depending on your flavor. The biggest difference is that the models are expected to be more durable and the sprint is a little longer than normal.
+TUG’s projects usually last somewhere between six and twelve weeks, with much of that not being part of any sprint but the acts of gathering information and getting alignment with the leadership team. Once we start working with the business team, our job is to use models to generate alignment and provide those models to the development team so that they can solve problems over the course of their own sprints and planning.
+The output of these activities is a relatively stable model repository that can be used to check assumptions as sprints progress, and can change as additional understanding from sprints uncovers or identifies assumptions that were made during the planning session.
+The approach works very well with User Story Mapping techniques and it fits hand in glove with the sAFE Solution Intent process.
+So if you’ve found yourself wondering how you can better communicate with your talented Agile team and get great, exciting products from your visions, drop us a line! We’ll show you to make sure that Understanding Precedes Action!

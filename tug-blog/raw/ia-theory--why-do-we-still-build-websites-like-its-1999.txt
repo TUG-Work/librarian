@@ -1,0 +1,16 @@
+Summary: When you build websites, are you letting technology drive your decisions? Or are you considering the purpose and language of your site BEFORE you start to code?
+The technology and techniques to build websites have gotten better—way better. So why are so many websites so bad? Maybe because the way people build them has hardly changed.
+The web development team—or perhaps a design team with assistance from developers—leads the effort.
+The team decides what platform they will use—Drupal or WordPress? Or maybe .Net?
+They gather user requirements.
+Two or three design comps are developed.
+The navigation is worked out, perhaps with an information architect, but more often than not by a user experience designer with a bent toward IA.
+And the website is built.
+This basic sequence might have made sense when getting the technology right was the hardest thing to do. But today, that’s like building an office by selecting what kind of steel you’re going to use for the girders. And then talking to the interior designer about the colors for the walls and the style of furniture. And only then working with an architect to lay out the floor plan. It’s backwards.
+There’s a reason that building projects for complex physical structures are led by an architect—someone who takes a systems level approach. An architect helps discover the “what” of a building – its different purposes and uses, its core meaning to stakeholders. The architect translates that into a set of plans and blueprints that tells the builders what to build. An architect must understand the nature of the materials being used. But they must also understand how people perceive physical spaces, and how to form the materials into a place where people will have the intended experience.
+Architects of Information
+Much like a building, digital places are built on a technological foundation. And similarly, the key part of an information architect’s job is to understand how people perceive the space. In a website, the walls, doors, and windows, things you use to orient yourself in the physical world, are replaced by words—menus, lists, headlines, and copy. They work together, hopefully, to let you know what kind of place you’re visiting and guide you where you need to go.
+In practice, this is hard to do. Language is tricky. People use the same word to mean different things, and different words to mean the same thing. When we talk to people in real life, we use the context of the discussion to understand what is meant. On a website, that’s harder. The information architect’s job is to build that sensible, coherent system of language to help your visitors get oriented.
+So what changes? Realize that the real foundation of your website is a system of language—not a software platform—and bring in the disciplines of information architecture to the forefront of your process when you build websites.
+Build your websites
+Over the years, TUG has developed a proven process for translating your digital strategy and objectives into architectural plans for a digital place that will delight your visitors. We’d love to hear about your project and share how we can help.

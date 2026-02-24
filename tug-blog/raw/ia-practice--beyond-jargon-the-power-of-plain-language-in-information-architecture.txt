@@ -1,0 +1,51 @@
+Date: July 12, 2023
+Author: Emily Claflin
+Reading Time: 5 min 35 sec
+Summary
+My Journey Embracing Plain Language
+What is Plain Language?
+Why is Plain Language Important?
+What are the Plain Language Guidelines?
+How to Incorporate Plain Language Into Complexity
+Embracing Plain Language: A Journey from AmeriCorps Volunteer to Information Architect
+In March, I gave a talk at the Information Architecture Conference (IAC23) on how to apply plain language guidelines to our work as information architects. I first learned about the federal plain language guidelines years ago as an AmeriCorps volunteer. Since then, writing with plain language has become an important part of my work as a librarian and information architect. We all need to communicate clearly with the people around us; plain language allows us to do so by providing an easy set of guidelines for us to follow.
+What is Plain Language?
+Plain language is a style of communication that uses simple and straightforward language to make information easy to understand. It’s about communicating your message in a clear and concise way so that the reader can understand your message the first time they read it. It emphasizes clarity, conciseness, and accessibility, particularly in government communication, to ensure the general public easily understands information.
+I define writing with plain language as the practice of intentionally using words that are clear, direct, and easy to understand. While the government developed plain language guidelines for use in their publications, you can apply them in any area of life to enhance your communication skills.
+Why is Plain Language Important?
+The term plain language came into modern use in 2010 when the US government enacted the Plain Writing Act intending to “enhance citizen access to Government information and services by establishing that Government documents issued to the public must be written clearly and for other purposes.”
+We’re all busy, and time is limited. Writing with plain language in mind reduces the time spent reading and rereading documents. It also reduces the time spent explaining your writing, especially for those who may not be familiar with industry-specific technical language.
+In our line of work, writing in plain language is important because we already present complex information. Using plain language standards ensures we remove any unnecessary obstacles that keep others from understanding that information. In addition, because our clients often use our deliverables in their decision-making processes, it’s important that they fully understand the written content.
+If we focus on communicating our work in a clear, concise, and straightforward way, we empower readers to understand the message the first time they read it. Doing so saves both of us any additional time spent explaining the work.
+What are the Plain Language Guidelines?
+The US Government established the eight basic guidelines for writing with plain language so that users could find, understand and use the information they need to meet their needs. Below is the list of the eight guidelines with my summary of each. You can view the guidelines on the plain language website for more detailed information.
+Write for your audience. What’s clear and accessible varies from one audience to another. Language relies on context to create meaning, which is why it’s important to know a little bit about your audience before you begin writing. Having basic information about a group, such as their profession, geographic location, age range, and cultural background impacts your ability to communicate with them clearly. As you start to write, take a minute and ask yourself, “Who am I writing for? Why will they be reading this? What are their goals?”
+Organize your information. When you’re creating written content, think about how the structure of your writing will impact its delivery. Use tools like a table of contents, page numbers, bulleted lists, clear headings, and charts to make it easier for your readers to scan and navigate your writing. Be sure to bookend your writing with an intro and summary so people can follow along with your core content.
+Choose your words carefully. Make a conscious effort to use common words, avoid jargon, and use simple sentence structures in your writing. Relying on jargon can be an easy trap to fall into, especially when we become desensitized to it or feel like we need to use jargon to seem like we’re in the know. However, jargon gets in the way of clear communication. For example, saying, “Let’s close the loop on this tomorrow” is unclear. It would be clearer to say, “I’ll schedule 30 minutes for us to review the final edits on the poster tomorrow before we send it to the printer.”
+Be concise. The key to effectively following this guideline is ensuring you eliminate unnecessary words from your writing and deliver things in manageable chunks. Avoid redundant words or phrases, extra adjectives, or negatives that make sentences unnecessarily long and confusing. Use short sentences and paragraphs to make your writing easy to follow.
+However, being concise doesn’t mean we should always keep our writing as short as possible. Remember, context is often the key to understanding. Being concise means it’s better to be clear than to be brief. If including additional context will help your audience understand what you’re saying, you should include it.
+Keep it conversational. When you’re writing, it’s easier for your audience to read and understand content when it’s written in a way that mimics how people naturally speak. Writing like this can be difficult for people (like me) who were trained to write in an academic setting where sounding knowledgeable and authoritative was emphasized. In daily life, it’s more important to make information easily digestible. You can do this by using contractions, an active voice, and familiar vocabulary to make it easier for people to read and absorb your writing.
+Design for reading. How you format your writing also impacts how your audience receives the information. When writing, avoid design choices that distract the reader, such as loud colors and hard-to-read fonts. Skip images or memes that aren’t directly applicable to your content.
+Follow web standards. When creating content for digital spaces, make sure the format you’ve selected is appropriate for your environment. Don’t rely on embedded PDFs to convey content, follow best practices for alt text and descriptive links, and don’t rely on FAQs sections to relay information. Instead, put the information where people expect to find it.
+Test your assumptions. Like any other aspect of UX work, it’s important to test our work with actual users to confirm our assumptions. Once you’ve created plain language content, test it with users to see whether they can understand it easily and apply it to achieve their goals. Incorporate this testing into general usability testing, or you can test the effectiveness of your language specifically through something like paraphrase testing.
+How to Incorporate Plain Language Into Complexity
+As information architects, we work with complex subject matter every day. If we’re not careful, it’s easy for us to create dense, information-rich deliverables that take a lot of work to decipher. Applying the principles of plain language to our work can make it easier for us to communicate with one another about our work. They also make it easier for our clients to understand our work.
+Learning to write with plain language takes time and practice, but it’s not difficult. Here are some ways to start incorporating plain language guidelines into your writing:
+Audit an email you sent recently to see how well your natural writing style aligns with the plain language guidelines.
+Pick one of the plain language guidelines and focus on integrating it into your writing for a week.
+Do an intentional plain language audit of a deliverable or document before sharing it with others.
+Every time you write a message, go back and eliminate at least one unnecessary word before sending it.
+Monitor the length of your sentences. It’s easy to write long sentences with convoluted structures when we’re working out our thoughts. After you finish writing something, revisit your sentence and count how many different ideas it contains. If it’s more than one, or two relatively simple ideas, break it into multiple sentences.
+Epilogue
+While plain language isn’t required outside of government spaces, everyone can benefit from this fruitful practice by using clear, direct, and easy-to-understand words. Being intentional about the way we communicate saves time, reduces errors, and frees up mental energy for more important tasks. As our team incorporates plain language into our work, our clients benefit from the time they get back as our deliverable becomes easier to read. Additionally, our team will benefit as we communicate plainly with each other, allowing us to focus more of our energy on doing great work for our clients.
+Keep in Touch
+Are you planning on trying out any of these suggestions? Let us know how it went. Send us a message on Social Media. We’d love to hear how things are going.
+Need Help with a Project?
+TUG is here for you. Whether you need an IA to help sort through a complex project or are just getting started with a new product or strategy and want to build on a solid foundation TUG’s experienced Architects, Designers, and Strategists are available to connect with you. Drop us a note so we can schedule some time with you.
+About the Author
+Emily is passionate about creating information systems that help people accomplish their goals. At TUG, she strives to design resilient systems by combining thoughtful organizational structures with accessible content and clear language. She loves delving into the details of a new information space through research and finding creative ways to wrangle complex information. Learn more about Emily and her work at TUG here.
+Related Articles
+Want more on the importance of clarity in information architecture? Dive in deeper with these articles:
+- Abstraction for Clarity
+- You Lost Them at “Glossary”: Create a Structural Vocabulary
+- Tell Better Stories with Proportional Analysis

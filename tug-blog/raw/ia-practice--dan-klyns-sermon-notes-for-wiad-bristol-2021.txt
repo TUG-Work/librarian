@@ -1,0 +1,93 @@
+For World IA Day 2021, TUG co-founder Dan Klyn was invited to give the closing keynote for Nomensa’s celebration in Bristol. Klyn’s counterproposal was to preach a brief sermon, to be followed immediately by Q&A with Nomensa co-founder and TUG’s beloved friend Simon Norris.
+Klyn’s post-hoc sermon text appears below, the pictures from which are available as a downloadable PDF ↓
+Beloved Bristolians: George Bernard Shaw had it wrong.
+We, the people of Great Britain and of your former North American colonies, are not divided by our common language: in fact, the English language unites us.
+In suffering.
+Indeed, I suspect that in spite of our many differences, each and every one of you is afflicted by exactly the same malady that I am, thanks to the inner workings of English, and 14 centuries worth of folk tales and and rhymes and songs and poems having been encoded in English.
+Which is that whenever you or I see or hear the word curiosity, we see a cat.
+In our mind’s eye.
+And at the same time, somewhere between our ears and behind our face, a voice wags its finger at us, and tells us something that sounds like Gospel truth:
+“Curiosity Killed The Cat.”
+It’s quite difficult, to fight back against the seeming wisdom of axiomatic “truths,” when the language itself has been weaponized through the power of pattern. Through rhythm, rhyme, alliteration, and consonance.
+The last time I was in England was at the invitation of Nomensa, to give a talk at a conference wherein I encouraged the audience to discard an axiom that I feel has done users of the English language more harm than good through endless and glib repetitions.
+Like “Curiosity Killed The Cat,” “You Are Not Your User” sounds so good that we keep on saying it, without appreciating what we’re reifying through repetition. The pleasure of repetition, the pleasure of pattern matching, the pleasingness of Kuh Kuh Kuh consonants on the one hand, and of the round vowelly Yuh Yuh Yuh on the other make these things we say seem true because they sound and feel so good to say.
+What “Curiosity Killed The Cat” has going for it, that can’t be said of seeming truths like “You Are Not Your User” is phenomenological incontrovertibility. I mean—have you seen a cat?
+Cats can’t help it; they can’t not be curious.
+Thankfully, they have 9 lives; but we only have this one life. This one, precarious, fragile life that can be snuffed out in an instant of poor judgement. Especially when we’re little children, and haven’t yet learned the various archetypes of risk and their corresponding types of disaster.
+Because it’s impossible to hover over each human child until it acquires experiential knowledge on its own, we outsource some of the job of protecting them to the consonance of the saying, and to the reliability of its message being understood and deeply felt by even very small humans once they’ve seen a cat, and hear the saying repeated enough times.
+Another way of explaining the power of an axiom like Curiosity Killed The Cat comes from the German language, in the expression klingt wahr.
+Which means “rings true.”
+—Or in my preferred and pedantic phraseology—phenomenological incontrovertibility. Cats are curious and it gets them in big trouble every time; just watch. In precisely the same way, we experience and re-experience the vibration of the note “Mi” (as in Do Re Mi) at 528 hertz; just strike the fork and listen.
+These are facts we can test, with results that come back the same every time.
+That’s the primary difference between an axiom like “Curiosity Killed The Cat” and an axiom like “You Are Not Your User. ” The former rings true in common experience. It’s test-able, like striking a tuning fork or dangling a bit of yarn in front of a kitten. The latter is just some stuff that somebody said.
+So when we find ourselves being exhorted to accept and adopt axiomatic truths of this second type that aren’t test-able—that aren’t based in anything we’ve experienced ourselves but nevertheless “sound good” through the pleasures of rhythm and rhyme and story and song—the question we ought to, but so rarely, ask ourselves is Qui Dicit - who says?
+What interest does the proponent of the axiom have in its acceptance?
+The great American comic Emo Philips once said, “I used to think that the brain was the most wonderful organ in my body. Then I realized, who was telling me this?”
+Sometimes, axiomatic sayings like “You Are Not Your User” no longer have a who that’s saying them. They cease being an actual instruction, and instead serve as a kind of identity—to identify the person who’s repeating the axiom as One Of Us.
+The technical term for when an axiom devolves into an ID card is shibboleth: a custom, principle, or belief distinguishing a particular class or group of people, especially a long-standing one regarded as outmoded or no longer important.
+The quality difference between experientially provable truths like “Curiosity Killed The Cat” and moralistically superimposed, shibbolethic truths like “You Are Not Your User” is demonstrated incisively by the character Alice in Lewis Carroll’s Victorian-era classic Through The Looking Glass.
+In one part of the story, Alice finds herself lured into the telling of a rhyming, sing-songey tale about a walrus and a carpenter by its intriguing axiom:
+The Oysters Were Curious!
+After the tale is told, and we learn the fate of the poor little oysters, the singer notes that his little song comprises a good moral lesson. Alice concurs, but then adds, in one of the sickest burns in all of English Literature: “if you happen to be an oyster.”
+She knew it was just a silly song. It didn’t ring true—perfunctory platitudes, merely. After all, the Walrus is a cheat, and the Carpenter’s a dupe. The whole time (this is my theory) Alice was asking, she knew the answer to the question, “Qui Dicit?” In this story, the who of who says is a character called Tweedle Dumb.
+And Alice knows better than to adopt the axioms of a dummy.
+I think we should know better, too.
+I think we need to test everything we’ve been told about limits on and standards for what we should and shouldn’t know about.
+And I think we need to continually ask and find out the answer to the question “who’s saying this” whenever axioms are operative in the environments where we seek to do good work. To pull back the curtain, as it were, and discern who the thunder is while we’re considering what the thunder says.
+In the case of the seeming egalitarianism and beneficence of the voice from the cloud that says “You Are Not Your User,” what I hear in that voice is the ringing of a cash register, and the creaking of the crank on the side of a box that software development efforts disappear into, and that money comes out of.
+A mechanism that would seize up instantly if some still small voice were to propose the opposite of what the thunder says: that you and your user are one.
+I’d like to close with some thoughts on a Bible story that, to my way of seeing, unhelpfully blends the phenomenologically incontrovertible with the moralistically superimposed; an unholy admixture of experientially provable truths and stuff that’s been bolted on over the millennia: stuff that sounds good, that somebody wants to paint-in over top of what’s really going on in the scene.
+It’s the story of the transfiguration of Jesus Christ, and I’ll be reading you the version of the story that’s found in the 17th chapter of the book of Matthew. It’s a story that appears in the books of Mark and Luke as well, but curiously is not found in the gospel of St. John.
+I have a strong personal identification with this story. I used it as an analogy in an email to Richard Saul Wurman’s personal assistant back in 2014, who sent me an email about a half hour after I’d left Richard’s house in Newport, RI for the airport in Providence.
+The email was about me having left my camera behind, and what I wanted to do next. What I actually wanted to do next was to go back to Newport and stay there.
+Forever.
+To indefinitely prolong the incomparable pleasure of having Richard Saul Wurman explain Richard Saul Wurman’s life and work to me, indulging my endless questions from within the keep of his magic castle on that enchanted isle.
+Here’s what I wrote back:
+Do you know the Bible story about the disciples on the transfiguration mountain where Moses and Elijah appear and hang out and talk with Jesus? St. Peter proposes they build some huts and stay up there longer, but he is rebuffed by JC and they sulk down the mountain.
+My transfiguration mountain already has a very nice and architecturally significant “hut” on it. And I’ve been able to come back repeatedly; and yet, the trip down from that high place still has me sulking :)
+There are many things that are wrong in my analogical framing here. To begin with (this is a risk with all such “truths”) I had the text wrong! Here’s what it actually says:
+After six days Jesus took with him Peter, James and John the brother of James, and led them up a high mountain by themselves. There he was transfigured before them. His face shone like the sun, and his clothes became as white as the light. Just then there appeared before them Moses and Elijah, talking with Jesus.
+Peter said to Jesus, “Lord, it is good for us to be here. If you wish, I will put up three shelters—one for you, one for Moses and one for Elijah.”
+While he was still speaking, a bright cloud covered them, and a voice from the cloud said, “This is my Son, whom I love; with him I am well pleased. Listen to him!”
+I’m going to turn on my document camera now and show you two models I made to illustrate the difference between what I think the story of the transfiguration says when it’s operating in the mode of the shibboleth, and what it might say if we were to re-write it with an eye and ear toward differentiating what’s experientially proven and prove-able in human experience (right), from what sounds good to the would-be proponents of religion (left).
+Comparing these models helped me to get a better feel for the dual nature of religious architectures: for a contrast that can be observed in the Western architectural tradition between spaces and places that are set up to reify concepts of transcendence (in latin transcendere - to climb over or surpass) and those that are set up to operationalize concepts of immanence (in latin immanere - to dwell or remain).
+On the left, the story is about the hapless but not entirely hopeless disciples’ adjacencey to an event that was meant for them to see but not take part of.
+To the extent that the conversation among the three circles at the top of the diagram at the left is described in the gospels at all, it said to have been about Jesus coming departure. In the future, when all is well.
+But in spite of Peter’s having declared the immanence of Jesus’ christ-hood here and now (latin hic et nunc) just a few chapters prior to the events of the transfiguration, and in spite of significant differences in the gospel accounts and English language translations I’ve examined, what all of them seem to agree on and add up to is a story about the elevation of (if not climbing-over by) Jesus and his surpassing of what had been the law (Moses) and the prophets (Elijah) of Israel.
+There’s also agreement among the various gospel texts and translations around the separateness of experience in what took place among the three radiant personages, when compared with took place among the three alternately sleepy, dumbfounded, and mealy-mouthed disciples.
+Those of you who endured my talk at the British Muesum the last time I was your guest might recall a provocation I shared from the work of physicist Niels Bohr. It’s a saying that’s important to Richard Saul Wurman’s theory of innovation: one that he finds to be phenomenologically incontrovertible (although he would hate to hear it said that way).
+The opposite of a profound truth is also true.
+So in the spirit of opposites, I’ve sought to become familiar with minority reports on what took place on the transfiguration mount. One of the most fascinating, that I’ve borrowed from liberally in what’s represented in the sketch on the right, says that the two personages who were talking with Jesus on Mt. Tabor were not Moses and Elijah. Rather, these two beings are the same ones who later (according to St. John) appeared at Jesus empty tomb. Angels, (this theory posits) of the sort whose job it is to help people deal with the mysteries they find themselves caught up in, by explaining stuff. Not from a cloud, or from on high: but on the level. Down on the ground. Literally lowering themselves in order to help human beings along our path to redemption.
+Explaining Angels. Beings who help un-block the truth. Rolling away the stones. Helping people to understand what they can’t yet connect with on their own due to the time-bound nature of human being on earth. In the story of the transfiguration, the EAs show up as the initial participants in an dialogue with Jesus. Not to be exalted with him in an exclusive foretaste of eternal glory, but to dialogue with Jesus and also with his companions.
+The arc of Rudolf Steiner’s sermon on the transfiguration story follows a similar trajectory. To his way of seeing (informed in no small part by an obsession with Johann Wolfgang von Goethe), the two beings who appeared in dialogue with Jesus on the transfiguration mount were Bodhisattva. Enlightened beings who choose to forego Nirvana and instead remain on earth to help teach and guide those still struggling in the dark. Personages whose power of understanding and explanation is aimed at liberating all sentient beings.
+The Bodhisattva are not servants of the enlightened, as might be represented in the top half of the diagram on the left. Not climbing over and surpassing hoi polloi to commune with JC in the VIP. They’re teachers, who’ll dwell down here among us, and abide as long as it takes to get everybody else into the dialogue, too. To get everybody lit up with and in the radiance of understanding.
+How else would it have come to pass that Peter would take the seemingly audacious liberty of proposing his construction project: to recommend that they concretize the pattern of immanence—the pattern of dwelling and remaining here and now—thereby expanding the conversation, through the construction of a tabernacle?
+And why else, after Peter’s having made so many mistakes in his striving to be covered in the dust of his rabbi, and to be able to do what his rabbi could do, do we find this rare agreement across all interpretive traditions that there was in fact no rebuke of Peter’s suggestion about building a tabernacle, neither by the radiant presences nor from Jesus?
+It’s because Peter was not wrong, and many of us who work as information architects have experiential knowledge of what Peter came to understand so clearly on that mountain top with his friends and with his beloved teacher.
+Which is that human beings literally light up when, at last, they come to understand.
+Jesus of Nazareth became radiant with understanding. Changed essentially, not just superficially. In the 20 years I’ve worked as an information architect I must have witnessed this phenomenon 1000 times. When the scales fall from somebody’s eyes, and they come to see what they’ve always seen but never really seen.
+They glow.
+You’ve seen the YouTube video of the child who is born with some sort of developmental difference, and what happens to her when a team of doctors helps her and gives her an implant or a device that immediately closes the gap between being told about colors and sounds, and hearing and seeing them.
+A person who’s seen color is a different person. A person who’s heard sound is a different person. Not necessarily a better person. But a fundamentally changed person. The radiant glow, that change in appearance, is light coming from within and shining outward: incontrovertible evidence of a changed situation and differently-charged reality.
+Visceral understanding.
+Not something you read about, and then reflect on later. Not something somebody tells you about, that sounds good. Transformational (vs. transcendent) understanding that’s here and now: hic et nunc.
+Not transfiguration, which is a temporary change in appearance. Transmutation. Fundamental change. From lead into gold, through the power of understanding, and explanation.
+So that’s what I came to tell you today. I hope you find it to be good news.
+My hope is that the ideas and characters and stories and structures I told you about will assist you in taking care with the things we say and hear that sound good. Especially when it comes to curiosity, and the superimposition of limits on what we are and are not supposed to be curious about.
+To let the cat out of the bag: you’re not an oyster! Be sure to ask yourself who is it that told you these things? Whose agenda is served best by “the bag” - by obfuscation through alternately meaningless constructs and mischievous encodings, to the detriment of reason.
+I encourage you to be like St. Peter (who was not wrong!), to slow down, and if necessary to build yourself a structure in the space of explaining and understanding and to dwell there long enough to discern the real situation you find yourself in, and to be transformed by what you come to understand.
+As one of my personal, patron saints (St. Hannah Arendt) once said: truly human dialogue differs from mere talk or even discussion in that it is entirely permeated by pleasure in the other person and what he says.
+Lo, may you dwell in such pleasures as long as you like. And while doing so, my hope is that you become skilled in the art of human dialogue.
+May all of your axioms ring true.
+May every thundering cloud of escapism-masquerading-as-transcendence, and every hazy fog of sleepy non-participation be phase-shifted and dissipated by the radiance of understanding, and by the compelling, inviting, generous warmth of clear explanation.
+Here and now.
+Amen?
+- What preachers get wrong and Peter gets right about The Transfiguration
+- What really happened at The Transfiguration
+- Transfigured Hermenutics
+- Texting Mark 9
+- Texting Matthew 17
+- Texting Luke 9
+- English Language Usage: Curiousity Killed The Cat
+- The Walrus and the Carpenter
+- The Transition (on Rudolf Steiner's theosophy)

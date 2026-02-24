@@ -1,0 +1,30 @@
+Date: August 12, 2020
+Author: Daniel O’Neil
+Reading Time: 2 min 59 sec
+All software development operates from some initial vision that is expressed through varying kinds of specifications. Whether these are traditional waterfall requirements, user stories in a backlog, or a checklist, they all represent an attempt of human minds to express to builders a need.
+And most of them, in one way or another, largely fail to do so.
+This is not an uncommon complaint in the struggle to create, but most other domains have mature and proven ways to share and describe an enduring vision that guides a project. In buildings, for example, it is achieved through BLUEPRINTS - representations of a place that can be used by the constructions team to scope out the effort as they problem solve the engineering and crafting tasks needed to create the thing the blueprint describes.
+In software, you can use blueprints as well, although it’s not a single drawing of a building that symbolically maps the intent of a system, but multiple models that help you understand the “what’s” and “whys” of what you intend to build. These models give a blueprint that is:
+A common language to describe your vision
+A way to define what “good” is
+A way to sustain, to remember, basically, what “good” is throughout the length of a project.
+Requirements vs. Blueprints
+You should expect some pushback when you first introduce this idea to your development team; after all, traditional requirements have caused no end of problems in the past, so it’s important to differentiate blueprints from requirements. Here’s how we think about it:
+Requirements manage the process of building, and ONLY building. You can generate fully formed, testable requirements, even if you don’t understand what you actually are trying to do.
+Blueprints, in contrast, manage the understanding of what is to be built. Blueprints do not tell you how to make a thing; they are the enduring vision of the place that should emerge from all your hard work.
+Let’s say we wanted to build a unicorn. Here are things we might glean from typical requirements for a unicorn:
+The viable outcome of a single element (a leg).
+A description of the basic type of the creature (a mammal).
+The functional purpose (a creature with a single horn).
+This is a traceable, testable set of user stories or specifications. Each builds a single unit of the unicorn.
+The problem is that this set of requirements could produce all kinds of stuff, including something rather more…gnarly, and in modern software development, that metaphorical outcome happens distressingly often.
+Now, these are examples of what we might get from a Unicorn Blueprint:
+Now that we have all talked about this idea of a unicorn, we all agree that a unicorn is mostly “this” but also partially “that”.
+These are the words people will use when they describe seeing a unicorn.
+This is the way a unicorn is used in a fairy tale.
+We have many models of what a unicorn might be that are shared widely in the act of unicorn making.
+What Blueprints Look like in Agile
+So where does this go in an Agile project? Basically blueprints fit in well with any Agile planning sprint or “iteration zero”, depending on your flavor of Agile. The biggest difference is that the models are expected to be more durable and the sprint is a little longer than normal. The blueprints end up being residual artifacts, and the team may have to adjust their sprints and scrums a little bit to encompass them as part of the planning and execution process. Sometimes this is a persistent design poster in the center of the work space, or a review of the concepts before each sprint. In any case, the language when discussing blueprints isn’t “we will build this”, but “we understand this to be".
+This approach works very well with User Story Mapping techniques and it fits hand in glove with the sAFE Solution Intent process.
+So if you’ve found yourself wondering how you can better communicate with your talented Agile team and get great, exciting products from your visions, drop us a line. We’ll work with you you to make sure that Understanding Precedes Action!
+Alternatively, if you want to bring the practice of modeling to your Agile projects in order to communicate strategic plans, develop shared understanding, and make the complex clear, check out TUG’s Modeling for Clarity Workshop.

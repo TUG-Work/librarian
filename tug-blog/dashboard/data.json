@@ -1,0 +1,1145 @@
+{
+  "generated": "2026-02-24T10:25:08.572513",
+  "article_count": 40,
+  "personas": {
+    "sara": {
+      "name": "Sara - C-Level Executive",
+      "count": 7
+    },
+    "laura": {
+      "name": "Laura - VP Marketing Nonprofit",
+      "count": 8
+    },
+    "ben": {
+      "name": "Ben - Product Manager",
+      "count": 9
+    },
+    "sue": {
+      "name": "Sue - UX Lead",
+      "count": 16
+    }
+  },
+  "concept_counts": {
+    "ia-foundations": 12,
+    "modeling": 10,
+    "blueprints": 6,
+    "ai-ethics": 5,
+    "alignment": 4,
+    "otc": 3,
+    "agile": 3,
+    "taxonomies": 2,
+    "in-tension": 2,
+    "plain-language": 2,
+    "conceptual-debt": 2,
+    "shearing-layers": 2,
+    "ai-strategy": 2,
+    "roadmapping": 1,
+    "service-design": 1,
+    "complexity": 1,
+    "analysis": 1,
+    "pace-layers": 1,
+    "governance": 1,
+    "metrics": 1,
+    "ux": 1
+  },
+  "pain_counts": {
+    "product-decisions": 8,
+    "organizational-alignment": 8,
+    "digital-strategy": 8,
+    "team-integration": 7,
+    "ai-anxiety": 7,
+    "ia-understanding": 6,
+    "skill-building": 6,
+    "demonstrating-impact": 5,
+    "fast-changing-landscape": 3,
+    "organizational-buy-in": 2,
+    "trust-building": 2,
+    "need-better-metrics": 2,
+    "cross-channel-concerns": 1,
+    "limited-resources": 1,
+    "customer-delight": 1
+  },
+  "articles": [
+    {
+      "title": "The Three Laws Of Good Project Roadmapping",
+      "slug": "the-three-laws-of-good-project-roadmapping",
+      "url": "https://understandinggroup.com/ia-practice/the-three-laws-of-good-project-roadmapping",
+      "category": "ia-practice",
+      "char_count": 4096,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-do-we-structure-this"
+      ],
+      "concepts": [
+        "roadmapping",
+        "blueprints"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "four-objections-developers-have-about-information-architecture",
+        "bring-innovation-back-to-agile-by-adding-information-architecture",
+        "how-conceptual-models-avoid-failure-in-digital-projects"
+      ]
+    },
+    {
+      "title": "Three Guidelines For Making Useful Taxonomies",
+      "slug": "three-guidelines-for-making-useful-taxonomies",
+      "url": "https://understandinggroup.com/ia-practice/three-guidelines-for-making-useful-taxonomies",
+      "category": "ia-practice",
+      "char_count": 7631,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "digital-strategy",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-can-i-make-it-better"
+      ],
+      "concepts": [
+        "taxonomies"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "information-architecture-and-incremental-website-improvement",
+        "ia-in-a-world-of-bullsht",
+        "talking-about-tugs-modeling-for-clarity-workshop"
+      ]
+    },
+    {
+      "title": "Reimagining Collaboration A Playful Approach To Facilitating Our In Tension Alignment Workshop",
+      "slug": "reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+      "url": "https://understandinggroup.com/ia-practice/reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+      "category": "ia-practice",
+      "char_count": 12426,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "organizational-buy-in",
+        "team-integration"
+      ],
+      "answers": [
+        "how-will-your-team-integrate"
+      ],
+      "concepts": [
+        "modeling",
+        "alignment",
+        "in-tension"
+      ],
+      "format": "case-study",
+      "related_articles": [
+        "intension-modeling-gains-alignment-1",
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "talking-about-tugs-information-architecture-staycation-workshop"
+      ]
+    },
+    {
+      "title": "Applying A Service Design Lens To Information Architecture Practice",
+      "slug": "applying-a-service-design-lens-to-information-architecture-practice",
+      "url": "https://understandinggroup.com/ia-practice/applying-a-service-design-lens-to-information-architecture-practice",
+      "category": "ia-practice",
+      "char_count": 10402,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "cross-channel-concerns",
+        "team-integration"
+      ],
+      "answers": [
+        "how-do-i-deal-with-cross-channel"
+      ],
+      "concepts": [
+        "service-design",
+        "blueprints"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "help-your-product-managers-succeed-with-blueprints",
+        "good-web-design-creates-joyful-user-experiences",
+        "four-objections-developers-have-about-information-architecture"
+      ]
+    },
+    {
+      "title": "Beyond Jargon The Power Of Plain Language In Information Architecture",
+      "slug": "beyond-jargon-the-power-of-plain-language-in-information-architecture",
+      "url": "https://understandinggroup.com/ia-practice/beyond-jargon-the-power-of-plain-language-in-information-architecture",
+      "category": "ia-practice",
+      "char_count": 10261,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "digital-strategy",
+        "trust-building"
+      ],
+      "answers": [
+        "how-can-i-make-it-better"
+      ],
+      "concepts": [
+        "plain-language"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "plain-language-model-amp-guide",
+        "iac2023recap",
+        "why-do-we-still-build-websites-like-its-1999"
+      ]
+    },
+    {
+      "title": "Learn About The Three Core Tenets Of Information Architecture With Dan Klyn",
+      "slug": "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+      "url": "https://understandinggroup.com/ia-practice/learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+      "category": "ia-practice",
+      "char_count": 6954,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "ia-understanding"
+      ],
+      "answers": [
+        "how-is-ia-different-from-ux"
+      ],
+      "concepts": [
+        "otc",
+        "ia-foundations"
+      ],
+      "format": "framework",
+      "related_articles": [
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "ia-in-a-world-of-bullsht",
+        "bring-innovation-back-to-agile-by-adding-information-architecture"
+      ]
+    },
+    {
+      "title": "Help Your Product Managers Succeed With Blueprints",
+      "slug": "help-your-product-managers-succeed-with-blueprints",
+      "url": "https://understandinggroup.com/ia-practice/help-your-product-managers-succeed-with-blueprints",
+      "category": "ia-practice",
+      "char_count": 4990,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "team-integration"
+      ],
+      "answers": [
+        "how-will-you-work-with-my-dev-team"
+      ],
+      "concepts": [
+        "blueprints"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "making-use-of-blueprints-to-improve-your-agile-projects",
+        "information-architecture-is-a-best-practice-now-so-bring-on-the-metrics",
+        "how-conceptual-models-avoid-failure-in-digital-projects"
+      ]
+    },
+    {
+      "title": "Managing Conceptual Debt Using Modeling To Gain Understanding 1",
+      "slug": "managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+      "url": "https://understandinggroup.com/ia-practice/managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+      "category": "ia-practice",
+      "char_count": 2740,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-do-we-fix-this-mess"
+      ],
+      "concepts": [
+        "conceptual-debt",
+        "modeling"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "five-ways-to-tell-if-you-suffer-from-conceptual-debt",
+        "how-conceptual-models-avoid-failure-in-digital-projects",
+        "talking-about-tugs-modeling-for-clarity-workshop"
+      ]
+    },
+    {
+      "title": "Model Play Session 2 Relationships Of Books Within Your Home",
+      "slug": "model-play-session-2-relationships-of-books-within-your-home",
+      "url": "https://understandinggroup.com/ia-practice/model-play-session-2-relationships-of-books-within-your-home",
+      "category": "ia-practice",
+      "char_count": 2850,
+      "primary_persona": "sue",
+      "secondary_personas": [],
+      "pain_points": [
+        "skill-building"
+      ],
+      "answers": [
+        "how-do-i-learn-modeling"
+      ],
+      "concepts": [
+        "modeling"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "modeling-for-team-play-1-light-sources-in-your-home",
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "managing-conceptual-debt-using-modeling-to-gain-understanding-1"
+      ]
+    },
+    {
+      "title": "Modeling For Team Play 1 Light Sources In Your Home",
+      "slug": "modeling-for-team-play-1-light-sources-in-your-home",
+      "url": "https://understandinggroup.com/ia-practice/modeling-for-team-play-1-light-sources-in-your-home",
+      "category": "ia-practice",
+      "char_count": 2200,
+      "primary_persona": "sue",
+      "secondary_personas": [],
+      "pain_points": [
+        "skill-building"
+      ],
+      "answers": [
+        "how-do-i-learn-modeling"
+      ],
+      "concepts": [
+        "modeling"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "model-play-session-2-relationships-of-books-within-your-home",
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "managing-conceptual-debt-using-modeling-to-gain-understanding-1"
+      ]
+    },
+    {
+      "title": "Five Ways To Tell If You Suffer From Conceptual Debt",
+      "slug": "five-ways-to-tell-if-you-suffer-from-conceptual-debt",
+      "url": "https://understandinggroup.com/ia-practice/five-ways-to-tell-if-you-suffer-from-conceptual-debt",
+      "category": "ia-practice",
+      "char_count": 3309,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "demonstrating-impact"
+      ],
+      "answers": [
+        "why-isnt-this-working"
+      ],
+      "concepts": [
+        "conceptual-debt"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+        "how-conceptual-models-avoid-failure-in-digital-projects",
+        "is-your-companys-complexity-essential-or-artificial"
+      ]
+    },
+    {
+      "title": "Intension Modeling Gains Alignment 1",
+      "slug": "intension-modeling-gains-alignment-1",
+      "url": "https://understandinggroup.com/ia-practice/intension-modeling-gains-alignment-1",
+      "category": "ia-practice",
+      "char_count": 3500,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "ben",
+        "sara"
+      ],
+      "pain_points": [
+        "organizational-buy-in",
+        "team-integration"
+      ],
+      "answers": [
+        "how-do-we-get-aligned"
+      ],
+      "concepts": [
+        "modeling",
+        "alignment",
+        "in-tension"
+      ],
+      "format": "framework",
+      "related_articles": [
+        "reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "talking-about-tugs-modeling-for-clarity-workshop"
+      ]
+    },
+    {
+      "title": "Plain Language Model Amp Guide",
+      "slug": "plain-language-model-amp-guide",
+      "url": "https://understandinggroup.com/ia-practice/plain-language-model-amp-guide",
+      "category": "ia-practice",
+      "char_count": 4924,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "digital-strategy",
+        "trust-building"
+      ],
+      "answers": [
+        "how-can-i-make-it-better"
+      ],
+      "concepts": [
+        "plain-language",
+        "modeling"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "beyond-jargon-the-power-of-plain-language-in-information-architecture",
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "ia-in-a-world-of-bullsht"
+      ]
+    },
+    {
+      "title": "Is Your Companys Complexity Essential Or Artificial",
+      "slug": "is-your-companys-complexity-essential-or-artificial",
+      "url": "https://understandinggroup.com/ia-practice/is-your-companys-complexity-essential-or-artificial",
+      "category": "ia-practice",
+      "char_count": 6674,
+      "primary_persona": "sara",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "limited-resources",
+        "demonstrating-impact"
+      ],
+      "answers": [
+        "whats-the-roi"
+      ],
+      "concepts": [
+        "complexity"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "leading-your-team-in-the-face-of-ai",
+        "five-ways-to-tell-if-you-suffer-from-conceptual-debt"
+      ]
+    },
+    {
+      "title": "Dan Klyns Sermon Notes For Wiad Bristol 2021",
+      "slug": "dan-klyns-sermon-notes-for-wiad-bristol-2021",
+      "url": "https://understandinggroup.com/ia-practice/dan-klyns-sermon-notes-for-wiad-bristol-2021",
+      "category": "ia-practice",
+      "char_count": 18348,
+      "primary_persona": "sue",
+      "secondary_personas": [],
+      "pain_points": [
+        "ia-understanding"
+      ],
+      "answers": [
+        "what-is-ia-really"
+      ],
+      "concepts": [
+        "ia-foundations",
+        "otc"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "ia-in-a-world-of-bullsht",
+        "otc"
+      ]
+    },
+    {
+      "title": "Talking About Tugs Information Architecture Staycation Workshop",
+      "slug": "talking-about-tugs-information-architecture-staycation-workshop",
+      "url": "https://understandinggroup.com/ia-practice/talking-about-tugs-information-architecture-staycation-workshop",
+      "category": "ia-practice",
+      "char_count": 7046,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "skill-building",
+        "ia-understanding"
+      ],
+      "answers": [
+        "how-do-i-learn-ia"
+      ],
+      "concepts": [
+        "ia-foundations"
+      ],
+      "format": "interview",
+      "related_articles": [
+        "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "otc"
+      ]
+    },
+    {
+      "title": "Talking About Tugs Modeling For Clarity Workshop",
+      "slug": "talking-about-tugs-modeling-for-clarity-workshop",
+      "url": "https://understandinggroup.com/ia-practice/talking-about-tugs-modeling-for-clarity-workshop",
+      "category": "ia-practice",
+      "char_count": 8508,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "skill-building"
+      ],
+      "answers": [
+        "how-do-i-learn-modeling"
+      ],
+      "concepts": [
+        "modeling"
+      ],
+      "format": "interview",
+      "related_articles": [
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+        "model-play-session-2-relationships-of-books-within-your-home"
+      ]
+    },
+    {
+      "title": "Graceful Change For Intranet Communities",
+      "slug": "graceful-change-for-intranet-communities",
+      "url": "https://understandinggroup.com/ia-practice/graceful-change-for-intranet-communities",
+      "category": "ia-practice",
+      "char_count": 4690,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "fast-changing-landscape",
+        "digital-strategy"
+      ],
+      "answers": [
+        "how-do-we-improve-incrementally"
+      ],
+      "concepts": [
+        "shearing-layers"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "information-architecture-and-incremental-website-improvement",
+        "why-do-we-still-build-websites-like-its-1999",
+        "ia-in-a-world-of-bullsht"
+      ]
+    },
+    {
+      "title": "How Was Your Last Site Redesign",
+      "slug": "how-was-your-last-site-redesign",
+      "url": "https://understandinggroup.com/ia-practice/how-was-your-last-site-redesign",
+      "category": "ia-practice",
+      "char_count": 1667,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "digital-strategy"
+      ],
+      "answers": [
+        "how-can-i-make-it-better"
+      ],
+      "concepts": [
+        "ia-foundations"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "why-do-we-still-build-websites-like-its-1999",
+        "four-objections-developers-have-about-information-architecture",
+        "fix-digital-strategy-with-information-architecture"
+      ]
+    },
+    {
+      "title": "Tell Better Stories With Proportional Analysis",
+      "slug": "tell-better-stories-with-proportional-analysis",
+      "url": "https://understandinggroup.com/ia-practice/tell-better-stories-with-proportional-analysis",
+      "category": "ia-practice",
+      "char_count": 6830,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "demonstrating-impact",
+        "need-better-metrics"
+      ],
+      "answers": [
+        "how-do-i-communicate-this"
+      ],
+      "concepts": [
+        "modeling",
+        "analysis"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+        "ia-in-a-world-of-bullsht"
+      ]
+    },
+    {
+      "title": "Leading Your Team In The Face Of Ai",
+      "slug": "leading-your-team-in-the-face-of-ai",
+      "url": "https://understandinggroup.com/ia-theory/leading-your-team-in-the-face-of-ai",
+      "category": "ia-theory",
+      "char_count": 4504,
+      "primary_persona": "sara",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "ai-anxiety",
+        "demonstrating-impact"
+      ],
+      "answers": [
+        "how-will-ai-change-my-world"
+      ],
+      "concepts": [
+        "pace-layers",
+        "ai-strategy"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "ethical-ai-beyond-application-to-integration",
+        "it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence",
+        "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration"
+      ]
+    },
+    {
+      "title": "Ethical Ai Integration With The Aligned Groups Framework",
+      "slug": "ethical-ai-integration-with-the-aligned-groups-framework",
+      "url": "https://understandinggroup.com/ia-theory/ethical-ai-integration-with-the-aligned-groups-framework",
+      "category": "ia-theory",
+      "char_count": 2308,
+      "primary_persona": "sara",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "ai-anxiety",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-do-we-do-ai-responsibly"
+      ],
+      "concepts": [
+        "ai-ethics",
+        "alignment"
+      ],
+      "format": "framework",
+      "related_articles": [
+        "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+        "ethical-ai-beyond-application-to-integration",
+        "leading-your-team-in-the-face-of-ai"
+      ]
+    },
+    {
+      "title": "It Takes A Village Unlocking Ai Success Through An Ai Center Of Excellence",
+      "slug": "it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence",
+      "url": "https://understandinggroup.com/ia-theory/it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence",
+      "category": "ia-theory",
+      "char_count": 11812,
+      "primary_persona": "sara",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "ai-anxiety",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-do-we-organize-for-ai"
+      ],
+      "concepts": [
+        "ai-strategy",
+        "governance"
+      ],
+      "format": "framework",
+      "related_articles": [
+        "leading-your-team-in-the-face-of-ai",
+        "ethical-ai-beyond-application-to-integration",
+        "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration"
+      ]
+    },
+    {
+      "title": "Information Architecture Is A Best Practice Now So Bring On The Metrics",
+      "slug": "information-architecture-is-a-best-practice-now-so-bring-on-the-metrics",
+      "url": "https://understandinggroup.com/ia-theory/information-architecture-is-a-best-practice-now-so-bring-on-the-metrics",
+      "category": "ia-theory",
+      "char_count": 4630,
+      "primary_persona": "sara",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "demonstrating-impact",
+        "need-better-metrics"
+      ],
+      "answers": [
+        "whats-the-roi"
+      ],
+      "concepts": [
+        "metrics",
+        "ia-foundations"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "help-your-product-managers-succeed-with-blueprints",
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn"
+      ]
+    },
+    {
+      "title": "Otc",
+      "slug": "otc",
+      "url": "https://understandinggroup.com/ia-theory/otc",
+      "category": "ia-theory",
+      "char_count": 5799,
+      "primary_persona": "sue",
+      "secondary_personas": [],
+      "pain_points": [
+        "ia-understanding"
+      ],
+      "answers": [
+        "what-is-ia-really"
+      ],
+      "concepts": [
+        "otc",
+        "ia-foundations"
+      ],
+      "format": "framework",
+      "related_articles": [
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+        "ia-in-a-world-of-bullsht"
+      ]
+    },
+    {
+      "title": "Politics Of Classification Resmini",
+      "slug": "politics-of-classification-resmini",
+      "url": "https://understandinggroup.com/ia-theory/politics-of-classification-resmini",
+      "category": "ia-theory",
+      "char_count": 423,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "ai-anxiety",
+        "ia-understanding"
+      ],
+      "answers": [
+        "how-does-ai-affect-ia"
+      ],
+      "concepts": [
+        "taxonomies",
+        "ai-ethics"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "beyond-jargon-the-power-of-plain-language-in-information-architecture",
+        "plain-language-model-amp-guide"
+      ]
+    },
+    {
+      "title": "How Conceptual Models Avoid Failure In Digital Projects",
+      "slug": "how-conceptual-models-avoid-failure-in-digital-projects",
+      "url": "https://understandinggroup.com/ia-theory/how-conceptual-models-avoid-failure-in-digital-projects",
+      "category": "ia-theory",
+      "char_count": 7326,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-do-we-avoid-failure"
+      ],
+      "concepts": [
+        "modeling",
+        "alignment"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "making-use-of-blueprints-to-improve-your-agile-projects",
+        "managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+        "bring-innovation-back-to-agile-by-adding-information-architecture"
+      ]
+    },
+    {
+      "title": "Communicators In Higher Education Are Pivotal To Ethical Ai Integration",
+      "slug": "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+      "url": "https://understandinggroup.com/ia-theory/communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+      "category": "ia-theory",
+      "char_count": 10821,
+      "primary_persona": "sara",
+      "secondary_personas": [
+        "laura"
+      ],
+      "pain_points": [
+        "ai-anxiety"
+      ],
+      "answers": [
+        "how-do-we-do-ai-responsibly"
+      ],
+      "concepts": [
+        "ai-ethics"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "ethical-ai-beyond-application-to-integration",
+        "leading-your-team-in-the-face-of-ai",
+        "ethical-ai-integration-with-the-aligned-groups-framework"
+      ]
+    },
+    {
+      "title": "Ethical Ai Beyond Application To Integration",
+      "slug": "ethical-ai-beyond-application-to-integration",
+      "url": "https://understandinggroup.com/ia-theory/ethical-ai-beyond-application-to-integration",
+      "category": "ia-theory",
+      "char_count": 5608,
+      "primary_persona": "sara",
+      "secondary_personas": [],
+      "pain_points": [
+        "ai-anxiety"
+      ],
+      "answers": [
+        "how-do-we-do-ai-responsibly"
+      ],
+      "concepts": [
+        "ai-ethics"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "leading-your-team-in-the-face-of-ai",
+        "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+        "it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence"
+      ]
+    },
+    {
+      "title": "Iac2023Recap",
+      "slug": "iac2023recap",
+      "url": "https://understandinggroup.com/ia-theory/iac2023recap",
+      "category": "ia-theory",
+      "char_count": 6839,
+      "primary_persona": "sue",
+      "secondary_personas": [],
+      "pain_points": [
+        "skill-building"
+      ],
+      "answers": [
+        "what-is-happening-in-ia"
+      ],
+      "concepts": [
+        "ia-foundations"
+      ],
+      "format": "case-study",
+      "related_articles": [
+        "beyond-jargon-the-power-of-plain-language-in-information-architecture",
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "plain-language-model-amp-guide"
+      ]
+    },
+    {
+      "title": "Ia In A World Of Bullsht",
+      "slug": "ia-in-a-world-of-bullsht",
+      "url": "https://understandinggroup.com/ia-theory/ia-in-a-world-of-bullsht",
+      "category": "ia-theory",
+      "char_count": 8322,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "ai-anxiety",
+        "ia-understanding"
+      ],
+      "answers": [
+        "how-does-ai-affect-ia"
+      ],
+      "concepts": [
+        "ai-ethics",
+        "ia-foundations"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "why-do-we-still-build-websites-like-its-1999"
+      ]
+    },
+    {
+      "title": "Bring Innovation Back To Agile By Adding Information Architecture",
+      "slug": "bring-innovation-back-to-agile-by-adding-information-architecture",
+      "url": "https://understandinggroup.com/ia-theory/bring-innovation-back-to-agile-by-adding-information-architecture",
+      "category": "ia-theory",
+      "char_count": 3519,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "team-integration"
+      ],
+      "answers": [
+        "how-will-you-work-with-my-dev-team"
+      ],
+      "concepts": [
+        "blueprints",
+        "agile"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "is-your-company-blindly-building-software",
+        "making-use-of-blueprints-to-improve-your-agile-projects",
+        "four-objections-developers-have-about-information-architecture"
+      ]
+    },
+    {
+      "title": "Making Use Of Blueprints To Improve Your Agile Projects",
+      "slug": "making-use-of-blueprints-to-improve-your-agile-projects",
+      "url": "https://understandinggroup.com/ia-theory/making-use-of-blueprints-to-improve-your-agile-projects",
+      "category": "ia-theory",
+      "char_count": 4361,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "team-integration"
+      ],
+      "answers": [
+        "how-will-you-work-with-my-dev-team"
+      ],
+      "concepts": [
+        "blueprints",
+        "agile"
+      ],
+      "format": "how-to",
+      "related_articles": [
+        "how-conceptual-models-avoid-failure-in-digital-projects",
+        "help-your-product-managers-succeed-with-blueprints",
+        "bring-innovation-back-to-agile-by-adding-information-architecture"
+      ]
+    },
+    {
+      "title": "Is Your Company Blindly Building Software",
+      "slug": "is-your-company-blindly-building-software",
+      "url": "https://understandinggroup.com/ia-theory/is-your-company-blindly-building-software",
+      "category": "ia-theory",
+      "char_count": 4029,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "product-decisions",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "why-do-our-projects-fail"
+      ],
+      "concepts": [
+        "blueprints"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "bring-innovation-back-to-agile-by-adding-information-architecture",
+        "four-objections-developers-have-about-information-architecture",
+        "how-conceptual-models-avoid-failure-in-digital-projects"
+      ]
+    },
+    {
+      "title": "Rigorous Modeling Frameworks For Deep Understanding",
+      "slug": "rigorous-modeling-frameworks-for-deep-understanding",
+      "url": "https://understandinggroup.com/ia-theory/rigorous-modeling-frameworks-for-deep-understanding",
+      "category": "ia-theory",
+      "char_count": 3461,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "ben"
+      ],
+      "pain_points": [
+        "skill-building",
+        "organizational-alignment"
+      ],
+      "answers": [
+        "how-do-we-get-clarity"
+      ],
+      "concepts": [
+        "modeling"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "talking-about-tugs-modeling-for-clarity-workshop",
+        "managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+        "talking-about-tugs-information-architecture-staycation-workshop"
+      ]
+    },
+    {
+      "title": "Information Architecture And Incremental Website Improvement",
+      "slug": "information-architecture-and-incremental-website-improvement",
+      "url": "https://understandinggroup.com/ia-theory/information-architecture-and-incremental-website-improvement",
+      "category": "ia-theory",
+      "char_count": 4121,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "fast-changing-landscape",
+        "digital-strategy"
+      ],
+      "answers": [
+        "how-do-we-improve-incrementally"
+      ],
+      "concepts": [
+        "shearing-layers"
+      ],
+      "format": "framework",
+      "related_articles": [
+        "graceful-change-for-intranet-communities",
+        "why-do-we-still-build-websites-like-its-1999",
+        "ia-in-a-world-of-bullsht"
+      ]
+    },
+    {
+      "title": "Fix Digital Strategy With Information Architecture",
+      "slug": "fix-digital-strategy-with-information-architecture",
+      "url": "https://understandinggroup.com/ia-theory/fix-digital-strategy-with-information-architecture",
+      "category": "ia-theory",
+      "char_count": 4802,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sara"
+      ],
+      "pain_points": [
+        "digital-strategy"
+      ],
+      "answers": [
+        "whats-the-strategy"
+      ],
+      "concepts": [
+        "ia-foundations"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "why-do-we-still-build-websites-like-its-1999",
+        "talking-about-tugs-information-architecture-staycation-workshop",
+        "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn"
+      ]
+    },
+    {
+      "title": "Four Objections Developers Have About Information Architecture",
+      "slug": "four-objections-developers-have-about-information-architecture",
+      "url": "https://understandinggroup.com/ia-theory/four-objections-developers-have-about-information-architecture",
+      "category": "ia-theory",
+      "char_count": 6270,
+      "primary_persona": "ben",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "team-integration"
+      ],
+      "answers": [
+        "how-is-ia-different-from-ux",
+        "how-will-you-work-with-my-dev-team"
+      ],
+      "concepts": [
+        "ia-foundations",
+        "agile"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "why-do-we-still-build-websites-like-its-1999",
+        "bring-innovation-back-to-agile-by-adding-information-architecture",
+        "is-your-company-blindly-building-software"
+      ]
+    },
+    {
+      "title": "Why Do We Still Build Websites Like Its 1999",
+      "slug": "why-do-we-still-build-websites-like-its-1999",
+      "url": "https://understandinggroup.com/ia-theory/why-do-we-still-build-websites-like-its-1999",
+      "category": "ia-theory",
+      "char_count": 3151,
+      "primary_persona": "laura",
+      "secondary_personas": [
+        "sue"
+      ],
+      "pain_points": [
+        "digital-strategy",
+        "fast-changing-landscape"
+      ],
+      "answers": [
+        "whats-the-strategy"
+      ],
+      "concepts": [
+        "ia-foundations"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "four-objections-developers-have-about-information-architecture",
+        "how-was-your-last-site-redesign",
+        "ia-in-a-world-of-bullsht"
+      ]
+    },
+    {
+      "title": "Good Web Design Creates Joyful User Experiences",
+      "slug": "good-web-design-creates-joyful-user-experiences",
+      "url": "https://understandinggroup.com/ia-theory/good-web-design-creates-joyful-user-experiences",
+      "category": "ia-theory",
+      "char_count": 4749,
+      "primary_persona": "sue",
+      "secondary_personas": [
+        "laura",
+        "ben"
+      ],
+      "pain_points": [
+        "customer-delight"
+      ],
+      "answers": [
+        "how-do-we-delight-users"
+      ],
+      "concepts": [
+        "ux",
+        "ia-foundations"
+      ],
+      "format": "thought-leadership",
+      "related_articles": [
+        "applying-a-service-design-lens-to-information-architecture-practice",
+        "ia-in-a-world-of-bullsht",
+        "why-do-we-still-build-websites-like-its-1999"
+      ]
+    }
+  ]
+}

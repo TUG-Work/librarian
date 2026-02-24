@@ -1,0 +1,23 @@
+Date: June 18, 2024
+Author: Daniel O’Neil
+Reading Time: 4 min 36 sec
+In my experience, The Understanding Group’s track record helping digital places launch successfully is remarkable. Effective road maps are one reason for this.
+The idea of a road map is pretty fuzzy. People typically see them as a project plan or a project charter, but we see them a little differently. For us, road maps are a tool that defines “what we are building, in what order, and what we need to build it”.
+What we are building describes a project in an integrated and holistic way. In what order refers to which capabilities come first. And What we need to build it refers to the things that have to happen in order to create those capabilities properly. A good road map helps with these questions instead of saying when or how much it will cost to do them.
+So what makes a good road map? In our experience a good road map must adhere to three “laws”:
+Describe the problems to be solved instead of trying to solve them
+Describe the project in language the team can use to do work
+Make sure it functions as a map, not a schedule.
+Let’s go through each of these in order.
+Describe the problems to be solved instead of trying to solve them
+A project road map is not a design tool – that is to say, it should not be seen as a way to solve detailed problems. Jeff Patton, when describing User Story Mapping, talks about a project’s “backbone” and its “skeleton” – key references to the fact that the road map is not the “fleshed out” version of a product but the things that hold it up from beneath and within.
+The job of the team, then, is to transform this skeleton into a “fleshed out” product. Approaching the structure of a road map this way, helps you identify the key support elements of a project without getting in the way of your team’s problem solving and design.
+Describe the project in language the rest of the team can use to do work
+An important measure of a good project road map is the ability for the TEAM ITSELF to turn the the road map elements into understandable assignments. If the team cannot do this, there is more work to do.
+For example, we created this road map, to support operational systems change at a restaurant. Activities in each phase were broken into understandable sections that could be applied to different parts of the team as they planned the work. We started with a rationale, then moved through Capabilities and Information Needs, and then outlined the implied changes to people (skills), process, and technology. Finally we highlighted the expected integration for that level of the project.
+This is not a backlog, nor are these epics, but anyone working in that type of system could apply it to create epics and a project backlog. So this project road map is intended to explain the project, not to plan its implementation.
+This is not a backlog, nor are these epics, but anyone working in that system could apply it to create epics and a project backlog. So this project roadmap is intended to not understand the project, but to plan its implementation.
+It’s a map, not a schedule
+We are fortunate to live in a world where the problem of software budgets and timelines is largely solved through the Agile Revolution. Backlogs and Epics create the means to tangibly describe project elements in a way that is related to real elements of production. Road maps fit into this thought process very well. They do not suggest a specific schedule, or even a scope of effort. Instead, they emphasize “what we are building, in what order, and what we need to build it”.
+It’s important to defend the road map’s ability to do this! People will try to use it to argue for a deadline or a scope estimation,but other parts of the process will do a much better job of that than a road map.
+So those are the three laws of making a good road map. Does this line up with your experience? What challenges or opportunities do you see in the road mapping you’ve done in the past? If you want to talk to The Understanding Group about how we create and use road maps for our projects, drop us a line!

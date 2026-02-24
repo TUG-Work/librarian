@@ -1,0 +1,38 @@
+Date: April 30th, 2024
+Author: Daniel O’Neil
+Reading Time: 3 min 28 sec
+As digital projects have gone mainstream, it is no longer enough to simply get past the finish line. The stakes have been raised: projects must also deliver a satisfying outcome. This big change reflects the increasing maturity of skills, tools, and process.
+So while the biggest failure of past projects was a failure of SCOPE, today’s failures are about ALIGNMENT – that is, ensuring that the project outcomes reflect the needs and expectations of those who commissioned its creation.
+Failures of scope are epic. They are like watching the Titanic sink. They can destroy companies or careers. Failures of alignment are more subtle; they are dispiriting and annoying. Yet in our modern world, where consumers choose from endless apps, store fronts, and services, alignment failures often lead to financial consequences as dire as if the projects were never finished at all.
+The Unicorn Problem
+What does alignment failure look like? Imagine a project to design a unicorn. Testable, specific requirements are drafted, everyone agrees on them, and the product is delivered on time and under budget…and yet the results were something rather more, well, gnarly.
+The delivery team naturally points to the specifications, the list of requirements, the Jobs to Be Done, etc.– and notes how they produced a testable, viable product that met all the acceptance criteria. But it’s not the unicorn of your dreams!
+This happens all the time in software development. Well-meaning people misunderstood each other’s intent and produced an output that met all measurement criteria of success except for the one that truly mattered – happy customers.
+“What’s the problem? This satisfies all the specifications.” (Elasmotherium sibiricum, an extinct mammal from the last Ice Age)
+How Requirements Create Failures of Alignment
+Why does this happen? The problem is where common specification systems focus. Modern software processes, even agile, are designed to serve the needs of project managers and developers. They create “requirements”, which drive accountability, construction, development, and planning. This work of making is necessary but not sufficient..
+Modern software processes have mastered the art of making, but not the art of understanding.
+Why does this matter? Because making is not the same as understanding. Requirements can define a fully formed, testable product, even if you don’t understand what you actually are trying to do.
+To understand is to get broad clarity across multiple perspectives that persist and remain relevant across every stage of the project, not just in a single sprint or feature. In the physical world, these tools of understanding are “blueprints.” In the digital world, with its massive complexity and variety, we use a broader set of conceptual models to deliver understanding.
+How Conceptual Models are Different from Requirements
+Conceptual models do not tell you how to make a thing; instead, they represent an enduring understanding of what your work should create. For example, requirements will tell you, “the kitchen needs to have five overhead lights.” Conceptual models, on the other hand, will clarify the context where the lights need to be installed so they can be placed and connected in a way that makes sense relative to everything else in the kitchen.
+Let’s go back to that unicorn project. Here are things we might glean from typical requirements for a unicorn:
+The viable outcome of a single element (a leg).
+A description of the basic type of the creature (a mammal).
+The functional purpose (a creature with a single horn).
+This is a traceable, testable set of user stories or specifications. Each makes a single unit of the unicorn.
+These are examples of what we might get from a Unicorn Conceptual Model:
+Now that we have all talked about this idea of a unicorn, we all agree that a unicorn is mostly “this” but also partially “that”.
+These are the words people will use when they describe seeing a unicorn.
+This is the way a unicorn is used in a fairy tale.
+We have many models of what a unicorn might be that are shared widely in the act of unicorn making.
+From User Story Mapping by Jeff Patton, p xxxiii
+A conceptual model’s core purpose is to model a thing’s true – and broadly shared – intent, and then keep that intent in everyone’s mind throughout a development effort. Jeff Patton’s wonderful image from User Story Mapping captures this concept very well. Requirements lead you – and often leave you – at box one, where everyone still has a different mental model of what the end looks like. Conceptual models are used to walk through the experience of seeing the differences, adjusting the model, and aligning on a common vision as shown in boxes 2-4.
+What does your team need to do in order to use conceptual models?
+First, it’s important to understand that conceptual models do not replace requirements – they support them. Your team’s development processes may be high quality, advanced, and mature, But with conceptual models, your team must buy into the idea of alignment: they must be able to work with the rest of the team to agree on “what” you are trying to build, and why.
+Once the conceptual models are aligned with the team, you can turn your attention to the “how” and “when”, questions asked by makers and project managers. The difference is that, six months into a project when things are getting slippery or wooly, you have the conceptual models to return to, to ensure that the commonly understood thing remains clear in everyone’s minds.
+Does it really work?
+One of the reasons that I work at TUG is because of its success in modern digital projects. I started my professional career as a database developer, and moved systematically up the technology stack and ultimately out of it, becoming a requirements analyst and a business analyst, in the quest to figure out how to develop successful software projects. My win/loss record was only as good as the industry average, despite me being laser focused on creating successful outcomes. When I was invited to work at TUG, I was shocked to discover that software projects that they were involved in had success rates double or triple the rates I’d experienced in software elsewhere.
+These projects run the range from transactional websites to complex CRM tools for financial institutions. But for me the best example of how conceptual models were transformative and used for alignment on a TUG project is the work we did for Autodesk in improving the conversion rate for the trial version of one of their products. The essence of this project is that we didn’t do any wireframes or even taxonomy work for them; we instead provided user journeys that they could use as a conceptual model for understanding their customers and how they approached their needs in the context of a CAD product. This alignment tool was useful as a way to measure true success criteria, even though we had no input on the actual product development itself. The WHAT was safely in place; Autodesk then implemented the “how”.
+Have you tried using conceptual models in your organization? If not, how do you think you could have used them on your current projects?
+If you want to learn more about our process and how it’s so successful, drop us a line!
