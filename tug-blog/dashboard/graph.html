@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUG Blog - Topic Clusters</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            overflow: hidden;
+        }
+        #container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        .controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 100;
+        }
+        .controls h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .controls label {
+            display: block;
+            margin: 8px 0 4px;
+            font-size: 12px;
+            color: #aaa;
+        }
+        .controls select, .controls input {
+            width: 100%;
+            padding: 6px;
+            border-radius: 4px;
+            border: none;
+            background: #333;
+            color: #fff;
+        }
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            font-size: 13px;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(0,0,0,0.9);
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            max-width: 300px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .tooltip h3 {
+            margin-bottom: 6px;
+            color: #fff;
+        }
+        .tooltip .meta {
+            color: #aaa;
+            font-size: 11px;
+        }
+        .tooltip .concepts {
+            margin-top: 6px;
+        }
+        .tooltip .tag {
+            display: inline-block;
+            background: #444;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            margin: 2px;
+        }
+        .node {
+            cursor: pointer;
+            transition: r 0.2s;
+        }
+        .node:hover {
+            stroke: #fff;
+            stroke-width: 3px;
+        }
+        .link {
+            stroke: #444;
+            stroke-opacity: 0.6;
+        }
+        .back-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #aaa;
+            text-decoration: none;
+            background: rgba(0,0,0,0.7);
+            padding: 10px 15px;
+            border-radius: 6px;
+        }
+        .back-link:hover { color: #fff; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <svg></svg>
+    </div>
+    
+    <div class="controls">
+        <h1>Topic Clusters</h1>
+        <label>Color by:</label>
+        <select id="colorBy">
+            <option value="persona">Persona</option>
+            <option value="category">Category</option>
+            <option value="format">Format</option>
+        </select>
+        <label>Similarity threshold:</label>
+        <input type="range" id="threshold" min="0.1" max="0.5" step="0.05" value="0.25">
+        <span id="thresholdVal">0.25</span>
+        <label>Node size:</label>
+        <select id="sizeBy">
+            <option value="fixed">Fixed</option>
+            <option value="connections">Connections</option>
+            <option value="char_count">Article Length</option>
+        </select>
+    </div>
+    
+    <div class="legend" id="legend"></div>
+    
+    <div class="tooltip" id="tooltip"></div>
+    
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    
+    <script>
+        const colors = {
+            persona: {
+                sara: '#e74c3c',
+                laura: '#3498db', 
+                ben: '#2ecc71',
+                sue: '#9b59b6',
+                unknown: '#666'
+            },
+            category: {
+                'ia-practice': '#27ae60',
+                'ia-theory': '#2980b9'
+            },
+            format: {
+                'thought-leadership': '#e74c3c',
+                'how-to': '#2ecc71',
+                'framework': '#3498db',
+                'case-study': '#f39c12',
+                'interview': '#9b59b6',
+                'unknown': '#666'
+            }
+        };
+        
+        let data, simulation, nodes, links;
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        
+        const svg = d3.select('svg');
+        const g = svg.append('g');
+        
+        // Zoom
+        svg.call(d3.zoom()
+            .scaleExtent([0.2, 4])
+            .on('zoom', (e) => g.attr('transform', e.transform)));
+        
+        async function init() {
+            const response = await fetch('graph-data.json');
+            data = await response.json();
+            
+            document.getElementById('threshold').addEventListener('input', updateGraph);
+            document.getElementById('colorBy').addEventListener('change', updateColors);
+            document.getElementById('sizeBy').addEventListener('change', updateSizes);
+            
+            updateGraph();
+        }
+        
+        function updateGraph() {
+            const threshold = parseFloat(document.getElementById('threshold').value);
+            document.getElementById('thresholdVal').textContent = threshold.toFixed(2);
+            
+            // Build nodes and links
+            nodes = data.articles.map(a => ({...a}));
+            links = [];
+            
+            for (let i = 0; i < data.similarity.length; i++) {
+                for (let j = i + 1; j < data.similarity[i].length; j++) {
+                    const sim = data.similarity[i][j];
+                    if (sim >= threshold) {
+                        links.push({
+                            source: i,
+                            target: j,
+                            value: sim
+                        });
+                    }
+                }
+            }
+            
+            // Count connections per node
+            const connectionCount = new Array(nodes.length).fill(0);
+            links.forEach(l => {
+                connectionCount[l.source]++;
+                connectionCount[l.target]++;
+            });
+            nodes.forEach((n, i) => n.connections = connectionCount[i]);
+            
+            render();
+        }
+        
+        function render() {
+            g.selectAll('*').remove();
+            
+            const colorBy = document.getElementById('colorBy').value;
+            
+            // Links
+            const link = g.append('g')
+                .selectAll('line')
+                .data(links)
+                .join('line')
+                .attr('class', 'link')
+                .attr('stroke-width', d => Math.sqrt(d.value * 5));
+            
+            // Nodes
+            const node = g.append('g')
+                .selectAll('circle')
+                .data(nodes)
+                .join('circle')
+                .attr('class', 'node')
+                .attr('r', d => getNodeSize(d))
+                .attr('fill', d => getColor(d, colorBy))
+                .call(drag(simulation))
+                .on('mouseover', showTooltip)
+                .on('mouseout', hideTooltip)
+                .on('click', (e, d) => window.open(d.url, '_blank'));
+            
+            // Simulation
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id((d, i) => i).distance(100))
+                .force('charge', d3.forceManyBody().strength(-200))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(d => getNodeSize(d) + 5))
+                .on('tick', () => {
+                    link
+                        .attr('x1', d => d.source.x)
+                        .attr('y1', d => d.source.y)
+                        .attr('x2', d => d.target.x)
+                        .attr('y2', d => d.target.y);
+                    node
+                        .attr('cx', d => d.x)
+                        .attr('cy', d => d.y);
+                });
+            
+            updateLegend(colorBy);
+        }
+        
+        function getNodeSize(d) {
+            const sizeBy = document.getElementById('sizeBy').value;
+            if (sizeBy === 'connections') return 8 + d.connections * 2;
+            if (sizeBy === 'char_count') return 6 + Math.sqrt(d.char_count / 500);
+            return 10;
+        }
+        
+        function getColor(d, colorBy) {
+            const key = d[colorBy === 'persona' ? 'primary_persona' : colorBy];
+            return colors[colorBy][key] || '#666';
+        }
+        
+        function updateColors() {
+            const colorBy = document.getElementById('colorBy').value;
+            g.selectAll('.node')
+                .attr('fill', d => getColor(d, colorBy));
+            updateLegend(colorBy);
+        }
+        
+        function updateSizes() {
+            g.selectAll('.node')
+                .attr('r', d => getNodeSize(d));
+        }
+        
+        function updateLegend(colorBy) {
+            const legend = document.getElementById('legend');
+            const items = Object.entries(colors[colorBy])
+                .map(([key, color]) => `
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background:${color}"></div>
+                        ${key}
+                    </div>
+                `).join('');
+            legend.innerHTML = items;
+        }
+        
+        function showTooltip(e, d) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.innerHTML = `
+                <h3>${d.title}</h3>
+                <div class="meta">${d.category} · ${d.format} · ${d.connections} connections</div>
+                <div class="concepts">
+                    ${d.concepts.map(c => `<span class="tag">${c}</span>`).join('')}
+                </div>
+            `;
+            tooltip.style.left = (e.pageX + 15) + 'px';
+            tooltip.style.top = (e.pageY + 15) + 'px';
+            tooltip.style.opacity = 1;
+        }
+        
+        function hideTooltip() {
+            document.getElementById('tooltip').style.opacity = 0;
+        }
+        
+        function drag(simulation) {
+            return d3.drag()
+                .on('start', (e, d) => {
+                    if (!e.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                })
+                .on('drag', (e, d) => {
+                    d.fx = e.x;
+                    d.fy = e.y;
+                })
+                .on('end', (e, d) => {
+                    if (!e.active) simulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                });
+        }
+        
+        window.addEventListener('resize', () => {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            if (simulation) {
+                simulation.force('center', d3.forceCenter(width / 2, height / 2));
+                simulation.alpha(0.3).restart();
+            }
+        });
+        
+        init();
+    </script>
+</body>
+</html>
