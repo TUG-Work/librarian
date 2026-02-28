@@ -1,0 +1,66 @@
+{
+  "collection_record_id": "tug-blog-2026-02",
+  "generated": "2026-02-27T21:23:12.723682",
+  "interview_summary": {
+    "stated_purpose": "Improve blog findability and engagement through better organization",
+    "inferred_need": "Readers can't find relevant content; content isn't targeted to specific personas",
+    "audience": "Website visitors (prospects matching Sara/Laura/Ben/Sue personas)",
+    "constraints": "Working with existing 40-article corpus; personas already defined"
+  },
+  "briefing_markdown": "# Corpus Briefing: TUG Blog\n\n## Your Corpus at a Glance\n\nYou have **40 documents** totaling about **38,928 words**.\n\nDocument lengths vary moderately (423 to 18,348 characters). Standard methods will work.\n\nVocabulary diversity is moderate (4,610 unique terms). Typical for focused domain content.\n\n## What's Already Organized\n\nYour documents already have categories: **ia-practice**, **ia-theory** (2 categories, 100% coverage).\n\nThis is a clean 50/50 split based on URL structure. We can:\n- Validate these categories against what the content actually says\n- Discover subcategories within each  \n- Look for articles that bridge both categories\n\n## What Analysis Can Reveal\n\n| Approach | Feasibility | What You'd Get |\n|----------|-------------|----------------|\n| **Topic Modeling** | NMF | 6-10 themes with key terms. Reveals what each category is really about. |\n| **Clustering** | hierarchical | Document groups by similarity. Shows which articles are related regardless of category. |\n| **Taxonomy Validation** | \u2705 | Confirm or refine existing categories based on content analysis. |\n| **Concept Graph** | \u2705 | Visual map of how ideas connect. Good for \"related articles\" feature. |\n\n## Quality Notes\n\n- Stub: politics-of-classification-resmini (423 chars)\n- 1 docs exceed 15K chars - may dominate topic models\n\n## What Would Help\n\n- **Audience metadata**: Adding who each article serves (Sara, Laura, Ben, Sue) would enable persona-based navigation.\n- **Publication dates**: Would enable trend analysis (what topics are you writing about lately?).\n- **Content type tags**: Distinguishing thought-leadership vs. how-to vs. case-study would add a useful facet.\n\n## Recommended Approaches\n\nGiven your goal of improving blog findability and persona targeting:\n\n### Option A: Topic-First\nRun topic modeling to discover themes, then map articles to personas based on \nwhich topics each persona cares about.\n\n- **Effort:** Medium (2-3 hours)\n- **Output:** Topic tags for each article + persona assignments\n- **Tradeoff:** Personas inferred from topics, not directly assessed\n\n### Option B: Persona-First  \nUse LLM judgment to classify each article by primary persona, then analyze \ntopic distribution within each persona segment.\n\n- **Effort:** Medium (2-3 hours)\n- **Output:** Direct persona assignments + per-persona topic profile\n- **Tradeoff:** More manual review needed, but more accurate personas\n\n### Option C: Full Faceted\nBuild multiple facets simultaneously: topic, persona, content type, concepts.\nCross-reference everything.\n\n- **Effort:** High (4-6 hours)\n- **Output:** Rich metadata enabling multiple browse paths\n- **Tradeoff:** More upfront work, but most complete result\n\n## My Suggestion\n\nFor a 40-article blog, **Option B (Persona-First)** is probably the sweet spot. \nThe corpus is small enough that LLM classification will be accurate, and you'll \nget direct persona assignments rather than inferred ones.\n\nThat said, you've already done initial persona assignments in the dashboard. \nThe next high-value step would be **Option A (Topic-First)** to discover what \nthemes exist within each persona segment \u2014 this reveals content gaps and \ncross-referencing opportunities.\n\nIf you want the full picture for a website redesign, **Option C** is worth the \nextra effort.\n\nYour call \u2014 which sounds right?\n",
+  "options": [
+    {
+      "name": "Topic-First",
+      "description": "Run topic modeling to discover themes, then map articles to personas based on which topics each persona cares about.",
+      "effort": "medium",
+      "output": "Topic tags for each article + inferred persona assignments",
+      "tradeoff": "Personas inferred from topics, not directly assessed",
+      "skills_required": [
+        "topic_modeling",
+        "vocabulary_analysis"
+      ]
+    },
+    {
+      "name": "Persona-First",
+      "description": "Use LLM judgment to classify each article by primary persona, then analyze topic distribution within each persona segment.",
+      "effort": "medium",
+      "output": "Direct persona assignments + per-persona topic profile",
+      "tradeoff": "More manual review needed, but more accurate personas",
+      "skills_required": [
+        "vocabulary_analysis",
+        "topic_modeling"
+      ]
+    },
+    {
+      "name": "Full Faceted",
+      "description": "Build multiple facets simultaneously: topic, persona, content type, concepts. Cross-reference everything.",
+      "effort": "high",
+      "output": "Rich metadata enabling multiple browse paths",
+      "tradeoff": "More upfront work, but most complete result",
+      "skills_required": [
+        "topic_modeling",
+        "vocabulary_analysis",
+        "taxonomy_builder",
+        "concept_graph"
+      ]
+    }
+  ],
+  "suggested_option": "Persona-First",
+  "suggestion_rationale": "Corpus is small enough for accurate LLM classification. Direct persona assignments are more useful than inferred ones. Initial assignments already exist and can be validated.",
+  "next_steps": {
+    "if_topic_first": [
+      "topic_modeling",
+      "vocabulary_analysis"
+    ],
+    "if_persona_first": [
+      "vocabulary_analysis",
+      "manual_review"
+    ],
+    "if_full_faceted": [
+      "topic_modeling",
+      "vocabulary_analysis",
+      "taxonomy_builder",
+      "concept_graph"
+    ]
+  }
+}
