@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://librarian.tug.work/schemas/collection-record-v1.json",
+  "title": "Collection Record",
+  "description": "The output artifact of the Ingestion Skill. Describes a corpus and its characteristics.",
+  "type": "object",
+  "required": ["id", "name", "created", "provenance", "inventory", "statistical_profile", "structure", "quality_assessment", "feasibility", "recommendations"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for this collection record"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the collection"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the collection contains"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this collection record was created"
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Where the material came from and why it was collected",
+      "required": ["source", "source_type", "collected_date"],
+      "properties": {
+        "source": {"type": "string"},
+        "source_type": {
+          "type": "string",
+          "enum": ["web_scrape", "file_system", "database", "api", "manual_upload"]
+        },
+        "collected_date": {"type": "string", "format": "date"},
+        "collector": {"type": "string"},
+        "purpose": {"type": "string"},
+        "known_exclusions": {"type": "string"},
+        "is_sample": {"type": "boolean"},
+        "sample_method": {"type": "string"}
+      }
+    },
+    "inventory": {
+      "type": "object",
+      "description": "What's in the collection",
+      "required": ["document_count"],
+      "properties": {
+        "document_count": {"type": "integer", "minimum": 0},
+        "total_characters": {"type": "integer", "minimum": 0},
+        "total_tokens": {"type": "integer", "minimum": 0},
+        "formats": {
+          "type": "object",
+          "additionalProperties": {"type": "integer"}
+        },
+        "date_range": {
+          "type": "object",
+          "properties": {
+            "earliest": {"type": "string", "format": "date"},
+            "latest": {"type": "string", "format": "date"}
+          }
+        }
+      }
+    },
+    "statistical_profile": {
+      "type": "object",
+      "description": "Statistical characterization of the corpus",
+      "properties": {
+        "length_distribution": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "integer"},
+            "max": {"type": "integer"},
+            "mean": {"type": "number"},
+            "median": {"type": "number"},
+            "std": {"type": "number"},
+            "quartiles": {
+              "type": "array",
+              "items": {"type": "number"},
+              "minItems": 3,
+              "maxItems": 3
+            }
+          }
+        },
+        "vocabulary": {
+          "type": "object",
+          "properties": {
+            "unique_terms": {"type": "integer"},
+            "hapax_legomena": {"type": "integer"},
+            "type_token_ratio": {"type": "number"},
+            "richness": {
+              "type": "string",
+              "enum": ["low", "moderate", "high"]
+            }
+          }
+        },
+        "language": {
+          "type": "object",
+          "properties": {
+            "primary": {"type": "string"},
+            "mixed": {"type": "boolean"},
+            "other_detected": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "structure": {
+      "type": "object",
+      "description": "Organizational structure detected in the corpus",
+      "properties": {
+        "folder_hierarchy": {
+          "type": "object",
+          "properties": {
+            "depth": {"type": "integer"},
+            "top_level": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "suggests_categories": {"type": "boolean"}
+          }
+        },
+        "naming_patterns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pattern": {"type": "string"},
+              "count": {"type": "integer"},
+              "suggests": {"type": "string"}
+            }
+          }
+        },
+        "metadata_fields": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "prior_organization": {
+          "type": "object",
+          "properties": {
+            "has_categories": {"type": "boolean"},
+            "category_source": {"type": "string"},
+            "categories": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "coverage": {"type": "number", "minimum": 0, "maximum": 1}
+          }
+        },
+        "granularity": {
+          "type": "string",
+          "enum": ["document", "section", "paragraph"]
+        },
+        "heterogeneity": {
+          "type": "string",
+          "enum": ["low", "moderate", "high"]
+        }
+      }
+    },
+    "quality_assessment": {
+      "type": "object",
+      "description": "Quality issues detected",
+      "properties": {
+        "flags": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "duplicates_detected": {"type": "integer"},
+        "stubs_detected": {"type": "integer"},
+        "encoding_issues": {"type": "integer"},
+        "overall_quality": {
+          "type": "string",
+          "enum": ["good", "acceptable", "needs_cleaning"]
+        }
+      }
+    },
+    "feasibility": {
+      "type": "object",
+      "description": "What analytical methods are feasible for this corpus",
+      "properties": {
+        "topic_modeling": {
+          "type": "object",
+          "properties": {
+            "feasible": {"type": "boolean"},
+            "recommended_approach": {"type": "string"},
+            "notes": {"type": "string"}
+          }
+        },
+        "clustering": {
+          "type": "object",
+          "properties": {
+            "feasible": {"type": "boolean"},
+            "recommended_approach": {"type": "string"},
+            "notes": {"type": "string"}
+          }
+        },
+        "taxonomy_extraction": {
+          "type": "object",
+          "properties": {
+            "feasible": {"type": "boolean"},
+            "has_prior_categories": {"type": "boolean"},
+            "notes": {"type": "string"}
+          }
+        },
+        "faceted_analysis": {
+          "type": "object",
+          "properties": {
+            "candidate_facets": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "notes": {"type": "string"}
+          }
+        }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "description": "Recommended next actions",
+      "items": {
+        "type": "object",
+        "required": ["action", "rationale", "skill", "priority"],
+        "properties": {
+          "action": {"type": "string"},
+          "rationale": {"type": "string"},
+          "skill": {"type": "string"},
+          "priority": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          }
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "description": "Document inventory (optional, may be stored separately for large corpora)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "path": {"type": "string"},
+          "title": {"type": "string"},
+          "char_count": {"type": "integer"},
+          "metadata": {"type": "object"}
+        }
+      }
+    }
+  }
+}
