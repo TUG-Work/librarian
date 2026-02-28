@@ -1,0 +1,559 @@
+{
+  "$schema": "https://librarian.tug.work/schemas/collection-record-v1.json",
+  "id": "tug-blog-2026-02",
+  "name": "TUG Blog Corpus",
+  "description": "The Understanding Group blog posts on IA Practice and IA Theory, scraped for content analysis and persona targeting.",
+  "created": "2026-02-27T21:20:51.718750",
+  "provenance": {
+    "source": "https://understandinggroup.com",
+    "source_type": "web_scrape",
+    "collected_date": "2026-02-24",
+    "collector": "Kevin (Librarian Agent)",
+    "purpose": "Content audit for persona targeting, topic gap analysis, and navigation improvement",
+    "known_exclusions": "Comments, navigation chrome, and footer content excluded via trafilatura extraction",
+    "is_sample": false,
+    "sample_method": null
+  },
+  "inventory": {
+    "document_count": 40,
+    "total_characters": 236901,
+    "total_tokens": 38928,
+    "formats": {
+      ".txt": 40
+    },
+    "date_range": null
+  },
+  "statistical_profile": {
+    "length_distribution": {
+      "min": 423,
+      "max": 18348,
+      "mean": 5922.5,
+      "median": 4863.0,
+      "std": 3455.7,
+      "quartiles": [
+        3504.8,
+        4863.0,
+        7256.0
+      ]
+    },
+    "vocabulary": {
+      "unique_terms": 4610,
+      "hapax_legomena": 2192,
+      "type_token_ratio": 0.1494,
+      "richness": "moderate"
+    },
+    "language": {
+      "primary": "en",
+      "mixed": false,
+      "other_detected": []
+    }
+  },
+  "structure": {
+    "folder_hierarchy": {
+      "depth": 1,
+      "top_level": [
+        "ia-practice",
+        "ia-theory"
+      ],
+      "suggests_categories": true
+    },
+    "naming_patterns": [
+      {
+        "pattern": "ia-practice--*.txt",
+        "count": 20,
+        "suggests": "category prefix"
+      },
+      {
+        "pattern": "ia-theory--*.txt",
+        "count": 20,
+        "suggests": "category prefix"
+      }
+    ],
+    "metadata_fields": [
+      "category",
+      "slug",
+      "url"
+    ],
+    "prior_organization": {
+      "has_categories": true,
+      "category_source": "URL path structure / filename prefix",
+      "categories": [
+        "ia-practice",
+        "ia-theory"
+      ],
+      "coverage": 1.0
+    },
+    "granularity": "document",
+    "heterogeneity": "low"
+  },
+  "quality_assessment": {
+    "flags": [
+      "Stub: politics-of-classification-resmini (423 chars)",
+      "1 docs exceed 15K chars - may dominate topic models"
+    ],
+    "duplicates_detected": 0,
+    "stubs_detected": 1,
+    "encoding_issues": 0,
+    "overall_quality": "acceptable"
+  },
+  "feasibility": {
+    "topic_modeling": {
+      "feasible": true,
+      "recommended_approach": "NMF",
+      "notes": "40 docs is viable but small for LDA. NMF preferred for interpretability. 6-10 topics reasonable."
+    },
+    "clustering": {
+      "feasible": true,
+      "recommended_approach": "hierarchical",
+      "notes": "Small corpus - hierarchical clustering will reveal structure clearly. Consider Ward linkage."
+    },
+    "taxonomy_extraction": {
+      "feasible": true,
+      "has_prior_categories": true,
+      "notes": "Two categories exist (ia-practice, ia-theory). Validate against topics or subdivide."
+    },
+    "faceted_analysis": {
+      "candidate_facets": [
+        "category",
+        "audience",
+        "format",
+        "concepts"
+      ],
+      "notes": "Category exists. Audience and format would need LLM enrichment. Concepts could be extracted via TF-IDF."
+    }
+  },
+  "recommendations": [
+    {
+      "action": "Run topic modeling to discover themes within existing categories",
+      "rationale": "Prior categories are broad (practice vs theory). Topic modeling will reveal substructure useful for navigation.",
+      "skill": "topic_modeling",
+      "priority": "high"
+    },
+    {
+      "action": "Enrich with audience facet via LLM classification",
+      "rationale": "Persona targeting requires knowing which articles serve which audiences. No audience metadata exists.",
+      "skill": "vocabulary_analysis",
+      "priority": "high"
+    },
+    {
+      "action": "Extract key concepts as tags",
+      "rationale": "Cross-cutting concepts (blueprints, modeling, AI ethics) span both categories. Tags enable faceted browse.",
+      "skill": "vocabulary_analysis",
+      "priority": "medium"
+    },
+    {
+      "action": "Build concept co-occurrence graph",
+      "rationale": "Visualize how concepts relate. Useful for 'related articles' and gap identification.",
+      "skill": "concept_graph",
+      "priority": "medium"
+    },
+    {
+      "action": "Review stub documents for completeness",
+      "rationale": "1 document(s) under 500 chars may be incomplete or extraction failures.",
+      "skill": "manual_review",
+      "priority": "low"
+    }
+  ],
+  "documents": [
+    {
+      "id": "applying-a-service-design-lens-to-information-architecture-practice",
+      "path": "raw/ia-practice--applying-a-service-design-lens-to-information-architecture-practice.txt",
+      "title": "Applying A Service Design Lens To Information Architecture Practice",
+      "char_count": 10402,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "applying-a-service-design-lens-to-information-architecture-practice"
+      }
+    },
+    {
+      "id": "beyond-jargon-the-power-of-plain-language-in-information-architecture",
+      "path": "raw/ia-practice--beyond-jargon-the-power-of-plain-language-in-information-architecture.txt",
+      "title": "Beyond Jargon The Power Of Plain Language In Information Architecture",
+      "char_count": 10261,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "beyond-jargon-the-power-of-plain-language-in-information-architecture"
+      }
+    },
+    {
+      "id": "dan-klyns-sermon-notes-for-wiad-bristol-2021",
+      "path": "raw/ia-practice--dan-klyns-sermon-notes-for-wiad-bristol-2021.txt",
+      "title": "Dan Klyns Sermon Notes For Wiad Bristol 2021",
+      "char_count": 18348,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "dan-klyns-sermon-notes-for-wiad-bristol-2021"
+      }
+    },
+    {
+      "id": "five-ways-to-tell-if-you-suffer-from-conceptual-debt",
+      "path": "raw/ia-practice--five-ways-to-tell-if-you-suffer-from-conceptual-debt.txt",
+      "title": "Five Ways To Tell If You Suffer From Conceptual Debt",
+      "char_count": 3309,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "five-ways-to-tell-if-you-suffer-from-conceptual-debt"
+      }
+    },
+    {
+      "id": "graceful-change-for-intranet-communities",
+      "path": "raw/ia-practice--graceful-change-for-intranet-communities.txt",
+      "title": "Graceful Change For Intranet Communities",
+      "char_count": 4690,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "graceful-change-for-intranet-communities"
+      }
+    },
+    {
+      "id": "help-your-product-managers-succeed-with-blueprints",
+      "path": "raw/ia-practice--help-your-product-managers-succeed-with-blueprints.txt",
+      "title": "Help Your Product Managers Succeed With Blueprints",
+      "char_count": 4990,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "help-your-product-managers-succeed-with-blueprints"
+      }
+    },
+    {
+      "id": "how-was-your-last-site-redesign",
+      "path": "raw/ia-practice--how-was-your-last-site-redesign.txt",
+      "title": "How Was Your Last Site Redesign",
+      "char_count": 1667,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "how-was-your-last-site-redesign"
+      }
+    },
+    {
+      "id": "intension-modeling-gains-alignment-1",
+      "path": "raw/ia-practice--intension-modeling-gains-alignment-1.txt",
+      "title": "Intension Modeling Gains Alignment 1",
+      "char_count": 3500,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "intension-modeling-gains-alignment-1"
+      }
+    },
+    {
+      "id": "is-your-companys-complexity-essential-or-artificial",
+      "path": "raw/ia-practice--is-your-companys-complexity-essential-or-artificial.txt",
+      "title": "Is Your Companys Complexity Essential Or Artificial",
+      "char_count": 6674,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "is-your-companys-complexity-essential-or-artificial"
+      }
+    },
+    {
+      "id": "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn",
+      "path": "raw/ia-practice--learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn.txt",
+      "title": "Learn About The Three Core Tenets Of Information Architecture With Dan Klyn",
+      "char_count": 6954,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "learn-about-the-three-core-tenets-of-information-architecture-with-dan-klyn"
+      }
+    },
+    {
+      "id": "managing-conceptual-debt-using-modeling-to-gain-understanding-1",
+      "path": "raw/ia-practice--managing-conceptual-debt-using-modeling-to-gain-understanding-1.txt",
+      "title": "Managing Conceptual Debt Using Modeling To Gain Understanding 1",
+      "char_count": 2740,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "managing-conceptual-debt-using-modeling-to-gain-understanding-1"
+      }
+    },
+    {
+      "id": "model-play-session-2-relationships-of-books-within-your-home",
+      "path": "raw/ia-practice--model-play-session-2-relationships-of-books-within-your-home.txt",
+      "title": "Model Play Session 2 Relationships Of Books Within Your Home",
+      "char_count": 2850,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "model-play-session-2-relationships-of-books-within-your-home"
+      }
+    },
+    {
+      "id": "modeling-for-team-play-1-light-sources-in-your-home",
+      "path": "raw/ia-practice--modeling-for-team-play-1-light-sources-in-your-home.txt",
+      "title": "Modeling For Team Play 1 Light Sources In Your Home",
+      "char_count": 2200,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "modeling-for-team-play-1-light-sources-in-your-home"
+      }
+    },
+    {
+      "id": "plain-language-model-amp-guide",
+      "path": "raw/ia-practice--plain-language-model-amp-guide.txt",
+      "title": "Plain Language Model Amp Guide",
+      "char_count": 4924,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "plain-language-model-amp-guide"
+      }
+    },
+    {
+      "id": "reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop",
+      "path": "raw/ia-practice--reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop.txt",
+      "title": "Reimagining Collaboration A Playful Approach To Facilitating Our In Tension Alignment Workshop",
+      "char_count": 12426,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "reimagining-collaboration-a-playful-approach-to-facilitating-our-in-tension-alignment-workshop"
+      }
+    },
+    {
+      "id": "talking-about-tugs-information-architecture-staycation-workshop",
+      "path": "raw/ia-practice--talking-about-tugs-information-architecture-staycation-workshop.txt",
+      "title": "Talking About Tugs Information Architecture Staycation Workshop",
+      "char_count": 7046,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "talking-about-tugs-information-architecture-staycation-workshop"
+      }
+    },
+    {
+      "id": "talking-about-tugs-modeling-for-clarity-workshop",
+      "path": "raw/ia-practice--talking-about-tugs-modeling-for-clarity-workshop.txt",
+      "title": "Talking About Tugs Modeling For Clarity Workshop",
+      "char_count": 8508,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "talking-about-tugs-modeling-for-clarity-workshop"
+      }
+    },
+    {
+      "id": "tell-better-stories-with-proportional-analysis",
+      "path": "raw/ia-practice--tell-better-stories-with-proportional-analysis.txt",
+      "title": "Tell Better Stories With Proportional Analysis",
+      "char_count": 6830,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "tell-better-stories-with-proportional-analysis"
+      }
+    },
+    {
+      "id": "the-three-laws-of-good-project-roadmapping",
+      "path": "raw/ia-practice--the-three-laws-of-good-project-roadmapping.txt",
+      "title": "The Three Laws Of Good Project Roadmapping",
+      "char_count": 4096,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "the-three-laws-of-good-project-roadmapping"
+      }
+    },
+    {
+      "id": "three-guidelines-for-making-useful-taxonomies",
+      "path": "raw/ia-practice--three-guidelines-for-making-useful-taxonomies.txt",
+      "title": "Three Guidelines For Making Useful Taxonomies",
+      "char_count": 7631,
+      "metadata": {
+        "category": "ia-practice",
+        "slug": "three-guidelines-for-making-useful-taxonomies"
+      }
+    },
+    {
+      "id": "bring-innovation-back-to-agile-by-adding-information-architecture",
+      "path": "raw/ia-theory--bring-innovation-back-to-agile-by-adding-information-architecture.txt",
+      "title": "Bring Innovation Back To Agile By Adding Information Architecture",
+      "char_count": 3519,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "bring-innovation-back-to-agile-by-adding-information-architecture"
+      }
+    },
+    {
+      "id": "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration",
+      "path": "raw/ia-theory--communicators-in-higher-education-are-pivotal-to-ethical-ai-integration.txt",
+      "title": "Communicators In Higher Education Are Pivotal To Ethical Ai Integration",
+      "char_count": 10821,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "communicators-in-higher-education-are-pivotal-to-ethical-ai-integration"
+      }
+    },
+    {
+      "id": "ethical-ai-beyond-application-to-integration",
+      "path": "raw/ia-theory--ethical-ai-beyond-application-to-integration.txt",
+      "title": "Ethical Ai Beyond Application To Integration",
+      "char_count": 5608,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "ethical-ai-beyond-application-to-integration"
+      }
+    },
+    {
+      "id": "ethical-ai-integration-with-the-aligned-groups-framework",
+      "path": "raw/ia-theory--ethical-ai-integration-with-the-aligned-groups-framework.txt",
+      "title": "Ethical Ai Integration With The Aligned Groups Framework",
+      "char_count": 2308,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "ethical-ai-integration-with-the-aligned-groups-framework"
+      }
+    },
+    {
+      "id": "fix-digital-strategy-with-information-architecture",
+      "path": "raw/ia-theory--fix-digital-strategy-with-information-architecture.txt",
+      "title": "Fix Digital Strategy With Information Architecture",
+      "char_count": 4802,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "fix-digital-strategy-with-information-architecture"
+      }
+    },
+    {
+      "id": "four-objections-developers-have-about-information-architecture",
+      "path": "raw/ia-theory--four-objections-developers-have-about-information-architecture.txt",
+      "title": "Four Objections Developers Have About Information Architecture",
+      "char_count": 6270,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "four-objections-developers-have-about-information-architecture"
+      }
+    },
+    {
+      "id": "good-web-design-creates-joyful-user-experiences",
+      "path": "raw/ia-theory--good-web-design-creates-joyful-user-experiences.txt",
+      "title": "Good Web Design Creates Joyful User Experiences",
+      "char_count": 4749,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "good-web-design-creates-joyful-user-experiences"
+      }
+    },
+    {
+      "id": "how-conceptual-models-avoid-failure-in-digital-projects",
+      "path": "raw/ia-theory--how-conceptual-models-avoid-failure-in-digital-projects.txt",
+      "title": "How Conceptual Models Avoid Failure In Digital Projects",
+      "char_count": 7326,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "how-conceptual-models-avoid-failure-in-digital-projects"
+      }
+    },
+    {
+      "id": "ia-in-a-world-of-bullsht",
+      "path": "raw/ia-theory--ia-in-a-world-of-bullsht.txt",
+      "title": "Ia In A World Of Bullsht",
+      "char_count": 8322,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "ia-in-a-world-of-bullsht"
+      }
+    },
+    {
+      "id": "iac2023recap",
+      "path": "raw/ia-theory--iac2023recap.txt",
+      "title": "Iac2023Recap",
+      "char_count": 6839,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "iac2023recap"
+      }
+    },
+    {
+      "id": "information-architecture-and-incremental-website-improvement",
+      "path": "raw/ia-theory--information-architecture-and-incremental-website-improvement.txt",
+      "title": "Information Architecture And Incremental Website Improvement",
+      "char_count": 4121,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "information-architecture-and-incremental-website-improvement"
+      }
+    },
+    {
+      "id": "information-architecture-is-a-best-practice-now-so-bring-on-the-metrics",
+      "path": "raw/ia-theory--information-architecture-is-a-best-practice-now-so-bring-on-the-metrics.txt",
+      "title": "Information Architecture Is A Best Practice Now So Bring On The Metrics",
+      "char_count": 4630,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "information-architecture-is-a-best-practice-now-so-bring-on-the-metrics"
+      }
+    },
+    {
+      "id": "is-your-company-blindly-building-software",
+      "path": "raw/ia-theory--is-your-company-blindly-building-software.txt",
+      "title": "Is Your Company Blindly Building Software",
+      "char_count": 4029,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "is-your-company-blindly-building-software"
+      }
+    },
+    {
+      "id": "it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence",
+      "path": "raw/ia-theory--it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence.txt",
+      "title": "It Takes A Village Unlocking Ai Success Through An Ai Center Of Excellence",
+      "char_count": 11812,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "it-takes-a-village-unlocking-ai-success-through-an-ai-center-of-excellence"
+      }
+    },
+    {
+      "id": "leading-your-team-in-the-face-of-ai",
+      "path": "raw/ia-theory--leading-your-team-in-the-face-of-ai.txt",
+      "title": "Leading Your Team In The Face Of Ai",
+      "char_count": 4504,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "leading-your-team-in-the-face-of-ai"
+      }
+    },
+    {
+      "id": "making-use-of-blueprints-to-improve-your-agile-projects",
+      "path": "raw/ia-theory--making-use-of-blueprints-to-improve-your-agile-projects.txt",
+      "title": "Making Use Of Blueprints To Improve Your Agile Projects",
+      "char_count": 4361,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "making-use-of-blueprints-to-improve-your-agile-projects"
+      }
+    },
+    {
+      "id": "otc",
+      "path": "raw/ia-theory--otc.txt",
+      "title": "Otc",
+      "char_count": 5799,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "otc"
+      }
+    },
+    {
+      "id": "politics-of-classification-resmini",
+      "path": "raw/ia-theory--politics-of-classification-resmini.txt",
+      "title": "Politics Of Classification Resmini",
+      "char_count": 423,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "politics-of-classification-resmini"
+      }
+    },
+    {
+      "id": "rigorous-modeling-frameworks-for-deep-understanding",
+      "path": "raw/ia-theory--rigorous-modeling-frameworks-for-deep-understanding.txt",
+      "title": "Rigorous Modeling Frameworks For Deep Understanding",
+      "char_count": 3461,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "rigorous-modeling-frameworks-for-deep-understanding"
+      }
+    },
+    {
+      "id": "why-do-we-still-build-websites-like-its-1999",
+      "path": "raw/ia-theory--why-do-we-still-build-websites-like-its-1999.txt",
+      "title": "Why Do We Still Build Websites Like Its 1999",
+      "char_count": 3151,
+      "metadata": {
+        "category": "ia-theory",
+        "slug": "why-do-we-still-build-websites-like-its-1999"
+      }
+    }
+  ]
+}
